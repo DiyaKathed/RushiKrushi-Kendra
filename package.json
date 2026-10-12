@@ -1,0 +1,23 @@
+{
+  "name": "rushikrushi-kendra",
+  "version": "1.0.0",
+  "description": "Bilingual Agricultural Website & Farmer Education Platform for Rushi Krushi Seva Kendra",
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"green,blue\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "seed": "npm run seed --prefix server",
+    "test": "npm test --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShravaniKurkute/RushiKrushi-Kendra.git"
+  },
+  "author": "Mahadeo Savleram Dhobale / Rushi Krushi Seva Kendra",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

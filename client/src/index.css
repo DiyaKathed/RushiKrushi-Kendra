@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-agro-dark: #245C2A;
+  --color-agro-leaf: #438A35;
+  --color-agro-fresh: #79A83B;
+  --color-agro-harvest: #F2C94C;
+  --color-agro-earth: #80552F;
+  --color-agro-cream: #FAF8F0;
+  --color-agro-white: #FFFFFF;
+  --color-agro-text: #263328;
+  --color-agro-muted: #5D685B;
+  --color-agro-light: #EAF2E3;
+  --color-agro-border: #D7E1D1;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', 'Noto Sans Devanagari', 'Mukta', system-ui, sans-serif;
+  }
+
+  /* Optimize Devanagari rendering when Marathi is active */
+  [lang="mr"] {
+    font-family: 'Noto Sans Devanagari', 'Mukta', 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+  }
+
+  body {
+    background-color: #FAF8F0;
+    color: #263328;
+    margin: 0;
+    min-height: 100dvh;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #245C2A;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Standardized agricultural image containers */
+  .crop-card-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .product-card-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .article-card-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* Custom styled scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #a3c9b0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #40916c;
+}

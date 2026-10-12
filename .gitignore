@@ -1,0 +1,52 @@
+# ==============================================================================
+# Rushi Krushi Seva Kendra - Root .gitignore
+# ==============================================================================
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Local Secrets
+.env
+.env.*
+*.local
+!.env.example
+!client/.env.example
+!server/.env.example
+
+# Build outputs
+dist/
+build/
+client/dist/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+
+# Local databases & embedded storage
+server/data/
+server/data/embedded-db/
+
+# Uploaded user media (preserve .gitkeep so directory structure remains)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Operating System & IDE metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sublime-workspace
