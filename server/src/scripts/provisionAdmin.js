@@ -1,4 +1,10 @@
-require('dotenv').config();
+const fs = require('fs');
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
+const localEnvPath = path.resolve(__dirname, '../../.env.local');
+if (fs.existsSync(localEnvPath)) {
+  require('dotenv').config({ path: localEnvPath, override: true });
+}
 const { connectDB, disconnectDB } = require('../config/db');
 const { provisionAdminAccount, TARGET_ADMIN_EMAIL } = require('../utils/adminProvisioner');
 

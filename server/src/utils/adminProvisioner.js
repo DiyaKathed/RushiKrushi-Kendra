@@ -43,7 +43,7 @@ async function provisionAdminAccount(options = {}) {
   }
 
   // 2. User does not exist: determine initial password
-  const envPassword = process.env.ADMIN_INITIAL_PASSWORD;
+  const envPassword = options.password || process.env.ADMIN_INITIAL_PASSWORD;
   const initialPassword = envPassword && envPassword.trim()
     ? envPassword.trim()
     : crypto.randomBytes(16).toString('hex');
