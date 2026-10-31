@@ -17,7 +17,7 @@ import {
   MessageCircle,
   UserCheck
 } from 'lucide-react';
-import { getFarmerCrops, getProducts, getCrops } from '../../services/api';
+import { getFarmerCrops, getProducts, getCrops, extractProducts, extractCrops } from '../../services/api';
 
 const FarmerDashboardPage = () => {
   const { t, i18n } = useTranslation();
@@ -38,9 +38,13 @@ const FarmerDashboardPage = () => {
           getCrops({ limit: 3 })
         ]);
 
-        if (cropRes.data.success) setCrops(cropRes.data.crops);
-        if (prodRes.data.success) setFeaturedProducts(prodRes.data.products);
-        if (guideRes.data.success) setGuides(guideRes.data.crops);
+        if (cropRes.data?.success && cropRes.data?.crops) {
+          setCrops(cropRes.data.crops);
+        } else if (Array.isArray(cropRes.data)) {
+          setCrops(cropRes.data);
+        }
+        setFeaturedProducts(extractProducts(prodRes));
+        setGuides(extractCrops(guideRes));
       } catch (err) {
         console.error('Failed to load farmer dashboard:', err);
       } finally {

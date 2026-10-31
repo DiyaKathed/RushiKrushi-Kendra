@@ -14,7 +14,7 @@ import {
   Eye,
   ArrowLeft
 } from 'lucide-react';
-import { adminGetProducts, adminDeleteProduct } from '../../services/api';
+import { adminGetProducts, adminDeleteProduct, extractProducts } from '../../services/api';
 
 const AdminProductsPage = () => {
   const { t, i18n } = useTranslation();
@@ -35,9 +35,7 @@ const AdminProductsPage = () => {
       if (statusFilter !== 'All') params.status = statusFilter;
 
       const res = await adminGetProducts(params);
-      if (res.data.success) {
-        setProducts(res.data.products);
-      }
+      setProducts(extractProducts(res));
     } catch (err) {
       console.error('Failed to load admin products:', err);
     } finally {

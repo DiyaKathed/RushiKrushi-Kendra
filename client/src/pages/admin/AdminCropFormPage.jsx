@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Save, Upload, AlertCircle, Image as ImageIcon } from 'lucide-react';
-import { getCrop, adminCreateCrop, adminUpdateCrop, uploadImage } from '../../services/api';
+import { getCrop, adminCreateCrop, adminUpdateCrop, uploadImage, extractItem } from '../../services/api';
 
 const AdminCropFormPage = () => {
   const { id } = useParams();
@@ -52,8 +52,8 @@ const AdminCropFormPage = () => {
         setLoading(true);
         try {
           const res = await getCrop(id);
-          if (res.data.success) {
-            const c = res.data.crop;
+          const c = extractItem(res, 'crop');
+          if (c) {
             setFormData({
               nameEn: c.nameEn || '',
               nameMr: c.nameMr || '',

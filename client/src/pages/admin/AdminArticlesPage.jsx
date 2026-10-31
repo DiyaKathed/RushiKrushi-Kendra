@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FileText, PlusCircle, Search, Edit, Trash2, Eye, ArrowLeft } from 'lucide-react';
-import { adminGetArticles, adminDeleteArticle } from '../../services/api';
+import { adminGetArticles, adminDeleteArticle, extractArticles } from '../../services/api';
 
 const AdminArticlesPage = () => {
   const { t, i18n } = useTranslation();
@@ -15,9 +15,7 @@ const AdminArticlesPage = () => {
     setLoading(true);
     try {
       const res = await adminGetArticles();
-      if (res.data.success) {
-        setArticles(res.data.articles);
-      }
+      setArticles(extractArticles(res));
     } catch (err) {
       console.error('Failed to load admin articles:', err);
     } finally {

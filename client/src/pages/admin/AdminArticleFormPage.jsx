@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Save, Upload, AlertCircle } from 'lucide-react';
-import { getArticle, adminCreateArticle, adminUpdateArticle, uploadImage } from '../../services/api';
+import { getArticle, adminCreateArticle, adminUpdateArticle, uploadImage, extractItem } from '../../services/api';
 
 const ARTICLE_CATEGORIES = [
   'Fertilizer Management',
@@ -43,8 +43,8 @@ const AdminArticleFormPage = () => {
         setLoading(true);
         try {
           const res = await getArticle(id);
-          if (res.data.success) {
-            const a = res.data.article;
+          const a = extractItem(res, 'article');
+          if (a) {
             setFormData({
               titleEn: a.titleEn || '',
               titleMr: a.titleMr || '',

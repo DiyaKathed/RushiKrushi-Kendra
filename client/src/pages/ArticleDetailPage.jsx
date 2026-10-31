@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BookOpen, ArrowLeft, Calendar, FileText, Share2, Tag } from 'lucide-react';
-import { getArticle } from '../services/api';
+import { getArticle, extractItem, extractArticles } from '../services/api';
 
 const ArticleDetailPage = () => {
   const { slug } = useParams();
@@ -18,9 +18,10 @@ const ArticleDetailPage = () => {
       setLoading(true);
       try {
         const res = await getArticle(slug);
-        if (res.data.success) {
-          setArticle(res.data.article);
-          setRelatedArticles(res.data.related || []);
+        const item = extractItem(res, 'article');
+        if (item) {
+          setArticle(item);
+          setRelatedArticles(extractArticles(res.data?.related || []));
         }
       } catch (err) {
         console.error('Error fetching article:', err);

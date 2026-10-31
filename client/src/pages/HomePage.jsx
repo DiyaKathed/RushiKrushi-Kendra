@@ -18,7 +18,7 @@ import {
   Sparkles,
   Droplets
 } from 'lucide-react';
-import { getProducts, getCrops } from '../services/api';
+import { getProducts, getCrops, extractProducts, extractCrops } from '../services/api';
 import ProductCard from '../components/ProductCard';
 import CropCard from '../components/CropCard';
 
@@ -37,12 +37,8 @@ const HomePage = () => {
           getProducts({ limit: 4, featured: 'true' }),
           getCrops({ limit: 3 })
         ]);
-        if (prodRes.data.success) {
-          setFeaturedProducts(prodRes.data.products);
-        }
-        if (cropRes.data.success) {
-          setFeaturedCrops(cropRes.data.crops.slice(0, 3));
-        }
+        setFeaturedProducts(extractProducts(prodRes));
+        setFeaturedCrops(extractCrops(cropRes).slice(0, 3));
       } catch (err) {
         console.error('Error loading homepage data:', err);
       } finally {

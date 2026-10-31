@@ -1,12 +1,42 @@
 import axios from 'axios';
 
-const apiBase =
-  import.meta.env.VITE_API_BASE_URL ||
-  import.meta.env.VITE_API_URL ||
-  '';
+/**
+ * Robustly sanitizes and determines the API base URL.
+ * Prevents duplicate '/api/api' paths regardless of how VITE_API_BASE_URL,
+ * VITE_API_URL, or VITE_BACKEND_URL are defined in Vercel or local envs.
+ *
+ * Examples:
+ * - "https://rushikrushi-kendra.onrender.com"      -> "https://rushikrushi-kendra.onrender.com/api"
+ * - "https://rushikrushi-kendra.onrender.com/"     -> "https://rushikrushi-kendra.onrender.com/api"
+ * - "https://rushikrushi-kendra.onrender.com/api"  -> "https://rushikrushi-kendra.onrender.com/api"
+ * - "https://rushikrushi-kendra.onrender.com/api/" -> "https://rushikrushi-kendra.onrender.com/api"
+ * - "" (local dev proxy)                           -> "/api"
+ */
+export const getApiBaseUrl = () => {
+  const envUrl = (
+    import.meta.env.VITE_API_BASE_URL ||
+    import.meta.env.VITE_API_URL ||
+    import.meta.env.VITE_BACKEND_URL ||
+    ''
+  ).trim();
+
+  if (!envUrl) {
+    return '/api';
+  }
+
+  // Remove trailing slashes
+  const clean = envUrl.replace(/\/+$/, '');
+
+  // If already ends with /api, use it as is without duplicating
+  if (clean.endsWith('/api')) {
+    return clean;
+  }
+
+  return `${clean}/api`;
+};
 
 const api = axios.create({
-  baseURL: apiBase ? `${apiBase.replace(/\/$/, '')}/api` : '/api',
+  baseURL: getApiBaseUrl(),
   headers: {
     'Content-Type': 'application/json',
   },
@@ -23,6 +53,74 @@ api.interceptors.request.use(
   },
   (error) => Promise.reject(error)
 );
+
+/**
+ * Safely extracts an array of products from any API response format:
+ * - { success: true, products: [...] }
+ * - { products: [...] }
+ * - [...] (direct array)
+ * - { data: [...] } or { data: { products: [...] } }
+ */
+export const extractProducts = (res) => {
+  const data = res?.data ?? res;
+  if (!data) return [];
+  if (Array.isArray(data)) return data;
+  if (Array.isArray(data.products)) return data.products;
+  if (Array.isArray(data.data)) return data.data;
+  if (Array.isArray(data.data?.products)) return data.data.products;
+  return [];
+};
+
+/**
+ * Safely extracts an array of crops from any API response format:
+ * - { success: true, crops: [...] }
+ * - { crops: [...] }
+ * - [...] (direct array)
+ * - { data: [...] } or { data: { crops: [...] } }
+ */
+export const extractCrops = (res) => {
+  const data = res?.data ?? res;
+  if (!data) return [];
+  if (Array.isArray(data)) return data;
+  if (Array.isArray(data.crops)) return data.crops;
+  if (Array.isArray(data.data)) return data.data;
+  if (Array.isArray(data.data?.crops)) return data.data.crops;
+  return [];
+};
+
+/**
+ * Safely extracts an array of articles from any API response format:
+ * - { success: true, articles: [...] }
+ * - { articles: [...] }
+ * - [...] (direct array)
+ * - { data: [...] } or { data: { articles: [...] } }
+ */
+export const extractArticles = (res) => {
+  const data = res?.data ?? res;
+  if (!data) return [];
+  if (Array.isArray(data)) return data;
+  if (Array.isArray(data.articles)) return data.articles;
+  if (Array.isArray(data.data)) return data.data;
+  if (Array.isArray(data.data?.articles)) return data.data.articles;
+  return [];
+};
+
+/**
+ * Safely extracts a single entity (product, crop, article) from an API response.
+ */
+export const extractItem = (res, preferredKey) => {
+  const data = res?.data ?? res;
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return null;
+  if (preferredKey && data[preferredKey] && typeof data[preferredKey] === 'object' && !Array.isArray(data[preferredKey])) {
+    return data[preferredKey];
+  }
+  if (data.product && typeof data.product === 'object' && !Array.isArray(data.product)) return data.product;
+  if (data.crop && typeof data.crop === 'object' && !Array.isArray(data.crop)) return data.crop;
+  if (data.article && typeof data.article === 'object' && !Array.isArray(data.article)) return data.article;
+  if (data.data && typeof data.data === 'object' && !Array.isArray(data.data)) return data.data;
+  if (data._id || data.id || data.slug || data.nameEn || data.titleEn) return data;
+  return null;
+};
 
 // Products API (Express / MongoDB Atlas single source of truth)
 export const getProducts = (params) => api.get('/products', { params });

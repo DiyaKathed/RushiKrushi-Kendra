@@ -13,7 +13,8 @@ import {
   getProduct,
   adminCreateProduct,
   adminUpdateProduct,
-  uploadImage
+  uploadImage,
+  extractItem
 } from '../../services/api';
 
 const CATEGORIES = [
@@ -71,8 +72,8 @@ const AdminProductFormPage = () => {
         setLoading(true);
         try {
           const res = await getProduct(id);
-          if (res.data.success) {
-            const p = res.data.product;
+          const p = extractItem(res, 'product');
+          if (p) {
             setFormData({
               nameEn: p.nameEn || '',
               nameMr: p.nameMr || '',
@@ -81,9 +82,9 @@ const AdminProductFormPage = () => {
               imageUrl: p.imageUrl || '',
               descriptionEn: p.descriptionEn || '',
               descriptionMr: p.descriptionMr || '',
-              packSizesString: p.packSizes ? p.packSizes.join(', ') : '',
+              packSizesString: Array.isArray(p.packSizes) ? p.packSizes.join(', ') : '',
               technicalComposition: p.technicalComposition || '',
-              applicableCropsString: p.applicableCrops ? p.applicableCrops.join(', ') : '',
+              applicableCropsString: Array.isArray(p.applicableCrops) ? p.applicableCrops.join(', ') : '',
               intendedUse: p.intendedUse || '',
               dosage: p.dosage || '',
               safetyPrecautionsEn: p.safetyPrecautionsEn || '',

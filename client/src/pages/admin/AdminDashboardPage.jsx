@@ -28,8 +28,9 @@ const AdminDashboardPage = () => {
     const fetchStats = async () => {
       try {
         const res = await getAdminStats();
-        if (res.data.success) {
-          setStats(res.data.stats);
+        const s = res?.data?.stats || res?.data?.data || res?.data;
+        if (s) {
+          setStats(s);
         }
       } catch (err) {
         console.error('Failed to load admin stats:', err);

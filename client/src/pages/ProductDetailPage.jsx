@@ -14,7 +14,7 @@ import {
   Layers,
   Sprout
 } from 'lucide-react';
-import { getProduct } from '../services/api';
+import { getProduct, extractItem, extractProducts } from '../services/api';
 import ProductCard from '../components/ProductCard';
 
 const ProductDetailPage = () => {
@@ -31,9 +31,11 @@ const ProductDetailPage = () => {
       setLoading(true);
       try {
         const res = await getProduct(slug);
-        if (res.data.success) {
-          setProduct(res.data.product);
-          setRelatedProducts(res.data.related || []);
+        const item = extractItem(res, 'product');
+        if (item) {
+          setProduct(item);
+          const rel = extractProducts(res.data?.related || []);
+          setRelatedProducts(rel);
         }
       } catch (err) {
         console.error('Failed to load product detail:', err);
@@ -73,20 +75,40 @@ const ProductDetailPage = () => {
     );
   }
 
-  const productName = currentLang === 'mr' ? product.nameMr || product.nameEn : product.nameEn;
-  const description = currentLang === 'mr' ? product.descriptionMr || product.descriptionEn : product.descriptionEn;
-  const safetyPrecautions = currentLang === 'mr' ? product.safetyPrecautionsMr || product.safetyPrecautionsEn : product.safetyPrecautionsEn;
+  const nameEn = product.nameEn || product.name_en || product.name || '';
+  const nameMr = product.nameMr || product.name_mr || '';
+  const productName = currentLang === 'mr' ? (nameMr || nameEn) : (nameEn || nameMr);
 
-  const isAvailable = product.availability === 'in_stock';
+  const descriptionEn = product.descriptionEn || product.description_en || product.description || '';
+  const descriptionMr = product.descriptionMr || product.description_mr || '';
+  const description = currentLang === 'mr' ? (descriptionMr || descriptionEn) : (descriptionEn || descriptionMr);
+
+  const safetyPrecautionsEn = product.safetyPrecautionsEn || product.safety_precautions_en || '';
+  const safetyPrecautionsMr = product.safetyPrecautionsMr || product.safety_precautions_mr || '';
+  const safetyPrecautions = currentLang === 'mr' ? (safetyPrecautionsMr || safetyPrecautionsEn) : (safetyPrecautionsEn || safetyPrecautionsMr);
+
+  const brand = product.brand || '';
+  const category = product.category || 'General';
+  const indicativePrice = product.indicativePrice || product.indicative_price || product.price || '';
+
+  const packSizes = Array.isArray(product.packSizes)
+    ? product.packSizes
+    : (Array.isArray(product.pack_sizes) ? product.pack_sizes : []);
+
+  const applicableCrops = Array.isArray(product.applicableCrops)
+    ? product.applicableCrops
+    : (Array.isArray(product.applicable_crops) ? product.applicable_crops : []);
+
+  const isAvailable = product.availability === 'in_stock' || product.is_available === true;
 
   // Pre-filled WhatsApp message as specified in Part 8
   const whatsappText = currentLang === 'mr'
-    ? `नमस्कार, मला ${productName} (${product.brand}) या उत्पादनाविषयी चौकशी करायची आहे. हे उत्पादन ऋषी कृषी सेवा केंद्र, पारगाव येथे उपलब्ध आहे का?`
-    : `Namaskar, I would like to enquire about ${product.nameEn} (${product.brand}). Is it available at Rushi Krushi Seva Kendra?`;
+    ? `नमस्कार, मला ${productName}${brand ? ` (${brand})` : ''} या उत्पादनाविषयी चौकशी करायची आहे. हे उत्पादन ऋषी कृषी सेवा केंद्र, पारगाव येथे उपलब्ध आहे का?`
+    : `Namaskar, I would like to enquire about ${nameEn || productName}${brand ? ` (${brand})` : ''}. Is it available at Rushi Krushi Seva Kendra?`;
 
   const whatsappUrl = `https://wa.me/919890360271?text=${encodeURIComponent(whatsappText)}`;
 
-  const imageSource = product.imageUrl || '/placeholder-agro.svg';
+  const imageSource = product.imageUrl || product.image_url || product.image || (Array.isArray(product.images) && product.images[0]) || '/placeholder-agro.svg';
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
@@ -119,7 +141,7 @@ const ProductDetailPage = () => {
             <div className="absolute top-3 left-3">
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-sm text-xs font-bold bg-[#FAF8F0] text-[#245C2A] border border-[#D7E1D1] shadow-xs">
                 <Tag className="w-3.5 h-3.5 text-[#438A35]" />
-                <span>{product.category}</span>
+                <span>{category}</span>
               </span>
             </div>
           </div>
@@ -145,14 +167,16 @@ const ProductDetailPage = () => {
         <div className="lg:col-span-7 flex flex-col justify-between space-y-6">
           <div className="space-y-4">
             <div>
-              <span className="text-xs font-bold text-[#5D685B] uppercase tracking-wider">
-                {product.brand}
-              </span>
+              {brand && (
+                <span className="text-xs font-bold text-[#5D685B] uppercase tracking-wider">
+                  {brand}
+                </span>
+              )}
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-[#263328] mt-1 font-marathi leading-tight">
                 {productName}
               </h1>
-              {currentLang === 'mr' && product.nameEn !== product.nameMr && (
-                <p className="text-sm text-[#5D685B] font-medium mt-0.5">{product.nameEn}</p>
+              {currentLang === 'mr' && nameEn && nameMr && nameEn !== nameMr && (
+                <p className="text-sm text-[#5D685B] font-medium mt-0.5">{nameEn}</p>
               )}
             </div>
 
@@ -172,13 +196,13 @@ const ProductDetailPage = () => {
             )}
 
             {/* Pack sizes */}
-            {product.packSizes && product.packSizes.length > 0 && (
+            {packSizes.length > 0 && (
               <div className="space-y-1.5 pt-2">
                 <span className="text-xs font-bold text-[#263328] uppercase tracking-wide">
                   {t('common.packSizes')}
                 </span>
                 <div className="flex flex-wrap gap-2">
-                  {product.packSizes.map((pack, idx) => (
+                  {packSizes.map((pack, idx) => (
                     <span
                       key={idx}
                       className="px-3 py-1 rounded-sm text-xs font-semibold bg-[#FAF8F0] border border-[#D7E1D1] text-[#263328]"
@@ -191,13 +215,13 @@ const ProductDetailPage = () => {
             )}
 
             {/* Recommended Crops */}
-            {product.applicableCrops && product.applicableCrops.length > 0 && (
+            {applicableCrops.length > 0 && (
               <div className="space-y-1.5 pt-1">
                 <span className="text-xs font-bold text-[#263328] uppercase tracking-wide">
                   {t('products.applicableCrops')}
                 </span>
                 <div className="flex flex-wrap gap-1.5">
-                  {product.applicableCrops.map((crop, idx) => (
+                  {applicableCrops.map((crop, idx) => (
                     <span
                       key={idx}
                       className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-sm text-xs font-semibold bg-[#EAF2E3] text-[#245C2A] border border-[#B8D5B0]"
@@ -240,10 +264,10 @@ const ProductDetailPage = () => {
             )}
 
             {/* Indicative Price */}
-            {product.indicativePrice && (
+            {indicativePrice && (
               <div className="p-3 rounded-md bg-[#FAF8F0] border border-[#D7E1D1] text-xs sm:text-sm text-[#263328]">
                 <span className="font-medium text-[#5D685B]">{t('common.indicativePrice')}: </span>
-                <span className="font-black text-[#245C2A] text-base">{product.indicativePrice}</span>
+                <span className="font-black text-[#245C2A] text-base">{indicativePrice}</span>
                 <span className="block text-[11px] text-[#5D685B] mt-0.5">
                   (Subject to batch and official government subsidy norms where applicable)
                 </span>

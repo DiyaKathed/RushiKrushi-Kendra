@@ -21,7 +21,7 @@ import {
   ChevronUp,
   FileCheck2
 } from 'lucide-react';
-import { getCrop } from '../services/api';
+import { getCrop, extractItem, extractProducts } from '../services/api';
 import ProductCard from '../components/ProductCard';
 
 const CropDetailPage = () => {
@@ -39,9 +39,10 @@ const CropDetailPage = () => {
       setLoading(true);
       try {
         const res = await getCrop(slug);
-        if (res.data.success) {
-          setCrop(res.data.crop);
-          setRelatedProducts(res.data.relatedProducts || []);
+        const item = extractItem(res, 'crop');
+        if (item) {
+          setCrop(item);
+          setRelatedProducts(extractProducts(res.data?.relatedProducts || res.data?.related || []));
         }
       } catch (err) {
         console.error('Error fetching crop details:', err);

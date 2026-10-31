@@ -14,7 +14,7 @@ import {
   ArrowRight,
   ShieldCheck
 } from 'lucide-react';
-import { getCrops, getArticles } from '../services/api';
+import { getCrops, getArticles, extractCrops, extractArticles } from '../services/api';
 import CropCard from '../components/CropCard';
 
 const FarmingGuidePage = () => {
@@ -47,12 +47,8 @@ const FarmingGuidePage = () => {
           getArticles()
         ]);
 
-        if (cropRes.data.success) {
-          setCrops(cropRes.data.crops);
-        }
-        if (artRes.data.success) {
-          setArticles(artRes.data.articles);
-        }
+        setCrops(extractCrops(cropRes));
+        setArticles(extractArticles(artRes));
       } catch (err) {
         console.error('Error fetching farming guides:', err);
       } finally {
@@ -227,28 +223,27 @@ const FarmingGuidePage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {articles.map((article) => {
-              const title = currentLang === 'mr' ? article.titleMr || article.titleEn : article.titleEn;
-              const summary = currentLang === 'mr' ? article.summaryMr || article.summaryEn : article.summaryEn;
+              const title = currentLang === 'mr' ? (article.titleMr || article.titleEn) : (article.titleEn || article.titleMr);
+              const summary = currentLang === 'mr' ? (article.summaryMr || article.summaryEn) : (article.summaryEn || article.summaryMr);
+              const img = article.imageUrl || article.image_url || '/placeholder-agro.svg';
 
               return (
                 <div
-                  key={article._id}
+                  key={article._id || article.slug}
                   className="bg-white rounded-xl border border-[#D7E1D1] shadow-card hover:shadow-card-hover transition flex flex-col justify-between overflow-hidden"
                 >
-                  {article.imageUrl && (
-                    <div className="aspect-16/9 bg-[#FAF8F0] border-b border-[#D7E1D1] overflow-hidden">
-                      <img
-                        src={article.imageUrl}
-                        alt={title}
-                        className="article-card-image hover:scale-105 transition-transform duration-300"
-                        loading="lazy"
-                        onError={(e) => {
-                          e.currentTarget.onerror = null;
-                          e.currentTarget.src = '/placeholder-agro.svg';
-                        }}
-                      />
-                    </div>
-                  )}
+                  <div className="aspect-16/9 bg-[#FAF8F0] border-b border-[#D7E1D1] overflow-hidden">
+                    <img
+                      src={img}
+                      alt={title || 'Article'}
+                      className="article-card-image hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = '/placeholder-agro.svg';
+                      }}
+                    />
+                  </div>
 
                   <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
                     <div className="space-y-2">

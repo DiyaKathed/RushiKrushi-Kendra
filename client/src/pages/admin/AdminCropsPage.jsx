@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BookOpen, PlusCircle, Search, Edit, Trash2, Eye, Calendar, ArrowLeft } from 'lucide-react';
-import { adminGetCrops, adminDeleteCrop } from '../../services/api';
+import { adminGetCrops, adminDeleteCrop, extractCrops } from '../../services/api';
 
 const AdminCropsPage = () => {
   const { t, i18n } = useTranslation();
@@ -15,9 +15,7 @@ const AdminCropsPage = () => {
     setLoading(true);
     try {
       const res = await adminGetCrops();
-      if (res.data.success) {
-        setCrops(res.data.crops);
-      }
+      setCrops(extractCrops(res));
     } catch (err) {
       console.error('Failed to load admin crops:', err);
     } finally {

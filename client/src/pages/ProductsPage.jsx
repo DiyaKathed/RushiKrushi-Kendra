@@ -10,7 +10,7 @@ import {
   Sparkles,
   PhoneCall
 } from 'lucide-react';
-import { getProducts } from '../services/api';
+import { getProducts, extractProducts } from '../services/api';
 import ProductCard from '../components/ProductCard';
 
 const CATEGORIES_LIST = [
@@ -66,12 +66,11 @@ const ProductsPage = () => {
         if (inStockOnly) params.availability = 'in_stock';
 
         const res = await getProducts(params);
-        if (res.data.success) {
-          setProducts(res.data.products);
-          setTotal(res.data.total);
-          if (res.data.brands) {
-            setAvailableBrands(['All', ...res.data.brands]);
-          }
+        const items = extractProducts(res);
+        setProducts(items);
+        setTotal(res.data?.total ?? items.length);
+        if (res.data?.brands && Array.isArray(res.data.brands)) {
+          setAvailableBrands(['All', ...res.data.brands]);
         }
       } catch (err) {
         console.error('Failed to load products:', err);
