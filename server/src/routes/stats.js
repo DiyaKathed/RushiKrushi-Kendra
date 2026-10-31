@@ -12,29 +12,20 @@ const { protect, authorize } = require('../middleware/auth');
 // @access  Private (Admin)
 router.get('/', protect, authorize('admin'), async (req, res) => {
   try {
-    const [
-      totalProducts,
-      publishedProducts,
-      draftProducts,
-      totalCrops,
-      publishedCrops,
-      totalArticles,
-      publishedArticles,
-      totalFarmers,
-      totalEnquiries,
-      pendingEnquiries,
-    ] = await Promise.all([
-      Product.countDocuments(),
-      Product.countDocuments({ status: 'published' }),
-      Product.countDocuments({ status: 'draft' }),
-      Crop.countDocuments(),
-      Crop.countDocuments({ status: 'published' }),
-      Article.countDocuments(),
-      Article.countDocuments({ status: 'published' }),
-      User.countDocuments({ role: 'farmer' }),
-      ContactEnquiry.countDocuments(),
-      ContactEnquiry.countDocuments({ status: 'pending' }),
-    ]);
+    const totalProducts = await Product.countDocuments();
+    const publishedProducts = await Product.countDocuments({ status: 'published' });
+    const draftProducts = await Product.countDocuments({ status: 'draft' });
+
+    const totalCrops = await Crop.countDocuments();
+    const publishedCrops = await Crop.countDocuments({ status: 'published' });
+
+    const totalArticles = await Article.countDocuments();
+    const publishedArticles = await Article.countDocuments({ status: 'published' });
+
+    const totalFarmers = await User.countDocuments({ role: 'farmer' });
+
+    const totalEnquiries = await ContactEnquiry.countDocuments();
+    const pendingEnquiries = await ContactEnquiry.countDocuments({ status: 'pending' });
 
     res.json({
       success: true,

@@ -1,3 +1,4 @@
+const { connectDB, isEmbeddedDB } = require('./config/db');
 const fs = require('fs');
 const path = require('path');
 // Load default environment variables
@@ -12,8 +13,6 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
-
-const { connectDB, isEmbeddedDB } = require('./config/db');
 const { getCorsOptions, validateStartupSecurity } = require('./config/cors');
 const { runSeed } = require('./seed/seed');
 const { provisionAdminAccount } = require('./utils/adminProvisioner');

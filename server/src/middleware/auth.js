@@ -19,9 +19,25 @@ const protect = async (req, res, next) => {
     });
   }
 
+  let decoded;
   try {
     const secret = getJwtSecret();
-    const decoded = jwt.verify(token, secret);
+    decoded = jwt.verify(token, secret);
+  } catch (err) {
+    if (err.message && err.message.startsWith('FATAL:')) {
+      console.error(`[Auth Security Alert] ${err.message}`);
+      return res.status(500).json({
+        success: false,
+        message: 'Authentication service configuration error',
+      });
+    }
+    return res.status(401).json({
+      success: false,
+      message: 'Invalid or expired session token, please sign in again',
+    });
+  }
+
+  try {
     const user = await User.findById(decoded.id);
 
     if (!user) {
@@ -34,16 +50,10 @@ const protect = async (req, res, next) => {
     req.user = user;
     next();
   } catch (err) {
-    if (err.message && err.message.startsWith('FATAL:')) {
-      console.error(`[Auth Security Alert] ${err.message}`);
-      return res.status(500).json({
-        success: false,
-        message: 'Authentication service configuration error',
-      });
-    }
-    return res.status(401).json({
+    console.error(`[Auth Middleware] User lookup error:`, err.message);
+    return res.status(500).json({
       success: false,
-      message: 'Invalid or expired session token, please sign in again',
+      message: 'Database error verifying user session, please try again',
     });
   }
 };

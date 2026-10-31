@@ -156,9 +156,9 @@ const AdminProductsPage = () => {
                     <td className="py-3 px-4 font-bold text-[#263328]">
                       <div className="flex items-center gap-3">
                         <div className="w-11 h-11 rounded-lg bg-[#FAF8F0] border border-[#D7E1D1] p-1 flex items-center justify-center shrink-0 overflow-hidden">
-                          {p.images && p.images[0] ? (
+                          {p.imageUrl || (p.images && p.images[0]) ? (
                             <img
-                              src={p.images[0]}
+                              src={p.imageUrl || p.images[0]}
                               alt={p.nameEn || p.nameMr}
                               className="w-full h-full object-contain"
                               onError={(e) => {
