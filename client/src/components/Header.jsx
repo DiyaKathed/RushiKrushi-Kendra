@@ -105,8 +105,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo & Store Identity */}
           <Link to="/" className="flex items-center gap-3 group focus:outline-hidden">
-            <div className="w-11 h-11 rounded-md bg-[#245C2A] border border-[#1C4920] flex items-center justify-center text-white shadow-xs">
-              <Sprout className="w-6 h-6 text-[#F2C94C]" />
+            <div className="w-12 h-12 rounded-full overflow-hidden bg-black border-2 border-[#245C2A] shadow-xs shrink-0 group-hover:scale-105 transition-transform flex items-center justify-center">
+              <img src="/logo.png" alt="Rushi Krushi Seva Kendra Logo" className="w-full h-full object-cover" />
             </div>
             <div>
               <div className="flex items-baseline gap-2">

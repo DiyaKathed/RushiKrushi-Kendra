@@ -54,8 +54,8 @@ const Footer = () => {
           {/* Col 1: Store Brand & Proprietor */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-md bg-[#245C2A] border border-[#357529] flex items-center justify-center text-white shadow-xs">
-                <Sprout className="w-6 h-6 text-[#F2C94C]" />
+              <div className="w-12 h-12 rounded-full overflow-hidden bg-black border-2 border-[#438A35] shadow-xs shrink-0 flex items-center justify-center">
+                <img src="/logo.png" alt="Rushi Krushi Seva Kendra Logo" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="text-lg font-black text-white font-marathi">

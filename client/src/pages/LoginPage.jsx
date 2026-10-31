@@ -52,8 +52,8 @@ const LoginPage = () => {
       <div className="max-w-md w-full bg-white rounded-xl border border-[#D7E1D1] shadow-card p-6 sm:p-8 space-y-6">
         {/* Top Icon and Mode Toggle */}
         <div className="text-center space-y-2">
-          <div className="w-12 h-12 rounded-lg bg-[#EAF2E3] text-[#245C2A] border border-[#D7E1D1] flex items-center justify-center mx-auto">
-            {isAdminMode ? <ShieldAlert className="w-6 h-6 text-[#80552F]" /> : <Sprout className="w-6 h-6 text-[#245C2A]" />}
+          <div className="w-16 h-16 rounded-full overflow-hidden bg-black border-2 border-[#245C2A] shadow-xs mx-auto flex items-center justify-center">
+            <img src="/logo.png" alt="Rushi Krushi Logo" className="w-full h-full object-cover" />
           </div>
           <h1 className="text-2xl font-black text-[#245C2A] font-marathi">
             {isAdminMode ? t('auth.adminLoginTitle') : t('auth.loginTitle')}

@@ -63,8 +63,8 @@ const RegisterPage = () => {
     <div className="min-h-[80vh] flex items-center justify-center px-4 py-12">
       <div className="max-w-xl w-full bg-white rounded-xl border border-[#D7E1D1] shadow-card p-6 sm:p-10 space-y-6">
         <div className="text-center space-y-2">
-          <div className="w-12 h-12 rounded-lg bg-[#EAF2E3] text-[#245C2A] border border-[#D7E1D1] flex items-center justify-center mx-auto">
-            <Sprout className="w-6 h-6 text-[#245C2A]" />
+          <div className="w-16 h-16 rounded-full overflow-hidden bg-black border-2 border-[#245C2A] shadow-xs mx-auto flex items-center justify-center">
+            <img src="/logo.png" alt="Rushi Krushi Logo" className="w-full h-full object-cover" />
           </div>
           <h1 className="text-2xl font-black text-[#245C2A] font-marathi">
             {t('auth.registerTitle')}
