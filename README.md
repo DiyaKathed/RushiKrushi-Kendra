@@ -292,7 +292,7 @@ The development database seeds automatically on first launch when empty.
 
 ## 🧪 7. Automated Testing
 
-The backend includes an automated test suite verifying database connectivity, password hashing, store admin provisioning idempotency, 28-point crop structure integrity, farmer data isolation, and inquiry validation.
+The backend includes comprehensive test suites verifying database connectivity, password hashing, store admin provisioning idempotency, 28-point crop structure integrity, farmer data isolation, inquiry validation, and production-safety security invariants (strict CORS origin enforcement, database production fail-fast checks, JWT secret strength validation, and startup pre-flight checks).
 
 Run the test suite with:
 ```bash
@@ -300,7 +300,7 @@ npm test
 ```
 *(Or inside `server/`: `npm test`)*
 
-Expected output (**8 passing tests**):
+Expected output (**18 passing tests** across both suites):
 ```
 ▶ Backend API & Models Verification Test Suite
   ✔ Connect to database and run seed
@@ -311,9 +311,20 @@ Expected output (**8 passing tests**):
   ✔ Verify farmer crop record ownership integrity
   ✔ Verify contact enquiry model validation
 ✔ Backend API & Models Verification Test Suite
-ℹ tests 8
+▶ Backend Production-Safety Security Test Suite
+  ✔ 1. Database: connectDB fails clearly in production when MONGODB_URI is missing
+  ✔ 2. JWT: getJwtSecret provides developer fallback in development and test environments
+  ✔ 3. JWT: Production refuses to operate when JWT_SECRET is missing
+  ✔ 4. JWT: Production refuses weak JWT_SECRET with fewer than 32 characters
+  ✔ 5. JWT: Production refuses known default or placeholder secrets
+  ✔ 6. JWT: Production accepts strong, unique secret of >= 32 characters
+  ✔ 7. CORS: Production refuses wildcard or missing CLIENT_URL
+  ✔ 8. CORS: Production restricts origin to configured CLIENT_URL and rejects unauthorized origin
+  ✔ 9. Startup Security: validateStartupSecurity checks production prerequisites together
+✔ Backend Production-Safety Security Test Suite
+ℹ tests 18
 ℹ suites 0
-ℹ pass 8
+ℹ pass 18
 ℹ fail 0
 ```
 

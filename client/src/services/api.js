@@ -9,8 +9,13 @@ import {
   getSupabaseArticle,
 } from './supabaseCatalog.js';
 
+const apiBase =
+  import.meta.env.VITE_API_BASE_URL ||
+  import.meta.env.VITE_API_URL ||
+  '';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: apiBase ? `${apiBase.replace(/\/$/, '')}/api` : '/api',
   headers: {
     'Content-Type': 'application/json',
   },

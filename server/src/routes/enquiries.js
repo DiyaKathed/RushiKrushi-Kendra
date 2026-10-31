@@ -1,12 +1,27 @@
 const express = require('express');
 const router = express.Router();
+const rateLimit = require('express-rate-limit');
 const ContactEnquiry = require('../models/ContactEnquiry');
 const { protect, authorize } = require('../middleware/auth');
+
+// Dedicated rate limiter for public enquiry submissions:
+// Allows up to 10 submissions per 15 minutes per IP. This allows legitimate farmers plenty
+// of flexibility to submit questions while blocking automated spam bots.
+const enquirySubmissionLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 10, // limit each IP to 10 enquiry submissions per window
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: {
+    success: false,
+    message: 'Too many enquiry submissions from this connection. Please wait 15 minutes before submitting again.',
+  },
+});
 
 // @route   POST /api/enquiries
 // @desc    Submit customer enquiry from contact form
 // @access  Public
-router.post('/', async (req, res) => {
+router.post('/', enquirySubmissionLimiter, async (req, res) => {
   try {
     const { name, phone, email, subject, message } = req.body;
 

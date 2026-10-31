@@ -42,13 +42,62 @@ const upload = multer({
   fileFilter: fileFilter,
 });
 
+const cloudinary = require('cloudinary').v2;
+
+const isCloudinaryConfigured = Boolean(
+  process.env.CLOUDINARY_CLOUD_NAME &&
+  process.env.CLOUDINARY_API_KEY &&
+  process.env.CLOUDINARY_API_SECRET
+);
+
+if (isCloudinaryConfigured) {
+  cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+  });
+}
+
 // @route   POST /api/upload
 // @desc    Upload an image for product or crop guide
 // @access  Private (Admin or Authenticated Farmer)
-router.post('/', protect, upload.single('image'), (req, res) => {
+router.post('/', protect, upload.single('image'), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ success: false, message: 'Please provide an image file' });
+    }
+
+    // If Cloudinary is configured (recommended for Render & ephemeral production containers),
+    // upload directly to Cloudinary CDN and remove temporary disk file.
+    if (isCloudinaryConfigured) {
+      try {
+        const uploadResult = await cloudinary.uploader.upload(req.file.path, {
+          folder: 'rushikrushi',
+          resource_type: 'image',
+        });
+
+        // Clean up temporary local file after successful Cloudinary upload
+        if (fs.existsSync(req.file.path)) {
+          fs.unlinkSync(req.file.path);
+        }
+
+        return res.json({
+          success: true,
+          url: uploadResult.secure_url,
+          filename: uploadResult.public_id,
+          size: uploadResult.bytes || req.file.size,
+          storage: 'cloudinary',
+        });
+      } catch (cloudErr) {
+        console.error('Cloudinary upload error:', cloudErr);
+        // If Cloudinary fails, fallback to local URL below
+      }
+    }
+
+    if (process.env.NODE_ENV === 'production') {
+      console.warn(
+        '[Upload Warning] Storing image on ephemeral local disk in production. Configure CLOUDINARY_* environment variables for durable persistent uploads.'
+      );
     }
 
     const fileUrl = `/uploads/${req.file.filename}`;
@@ -57,6 +106,7 @@ router.post('/', protect, upload.single('image'), (req, res) => {
       url: fileUrl,
       filename: req.file.filename,
       size: req.file.size,
+      storage: 'local',
     });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });

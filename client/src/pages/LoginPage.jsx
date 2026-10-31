@@ -148,15 +148,11 @@ const LoginPage = () => {
           </button>
         </form>
 
-        {!isAdminMode ? (
+        {!isAdminMode && (
           <div className="text-center pt-2 border-t border-[#D7E1D1]">
             <Link to="/register" className="text-xs text-[#5D685B] hover:text-[#245C2A] font-semibold">
               {t('auth.noAccount')} →
             </Link>
-          </div>
-        ) : (
-          <div className="p-2.5 rounded-lg bg-[#FAF8F0] border border-[#D7E1D1] text-[11px] text-[#80552F] text-center">
-            Default Proprietor Admin: <strong>admin@rushikrushi.com</strong> (Password: <strong>AdminPassword@123</strong>)
           </div>
         )}
       </div>

@@ -1,12 +1,20 @@
-require('dotenv').config();
+const fs = require('fs');
+const path = require('path');
+// Load default environment variables
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+// If .env.local exists, load it with overrides (for local development database settings)
+const localEnvPath = path.resolve(__dirname, '../.env.local');
+if (fs.existsSync(localEnvPath)) {
+  require('dotenv').config({ path: localEnvPath, override: true });
+}
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const path = require('path');
 const rateLimit = require('express-rate-limit');
 
-const { connectDB } = require('./config/db');
+const { connectDB, isEmbeddedDB } = require('./config/db');
+const { getCorsOptions, validateStartupSecurity } = require('./config/cors');
 const { runSeed } = require('./seed/seed');
 const { provisionAdminAccount } = require('./utils/adminProvisioner');
 const Product = require('./models/Product');
@@ -28,13 +36,8 @@ app.use(helmet({
   crossOriginResourcePolicy: { policy: "cross-origin" }
 }));
 
-// CORS Configuration
-const allowedOrigin = process.env.CLIENT_URL || '*';
-app.use(cors({
-  origin: allowedOrigin,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-}));
+// CORS Configuration (Strict origin in production, convenient dev access in development)
+app.use(cors(getCorsOptions()));
 
 // Body Parsers
 app.use(express.json({ limit: '10mb' }));
@@ -48,10 +51,12 @@ if (process.env.NODE_ENV !== 'test') {
 // Serve uploaded media statically
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
-// Rate Limiter for Authentication & Contact Form
+// Rate Limiter for Authentication Endpoints
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // limit each IP to 100 requests per window
+  max: 100, // limit each IP to 100 auth requests per window
+  standardHeaders: true,
+  legacyHeaders: false,
   message: { success: false, message: 'Too many requests from this IP, please try again after 15 minutes' }
 });
 
@@ -73,7 +78,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/crops', cropRoutes);
 app.use('/api/farmer-crops', farmerCropRoutes);
 app.use('/api/articles', articleRoutes);
-app.use('/api/enquiries', authLimiter, enquiryRoutes);
+app.use('/api/enquiries', enquiryRoutes); // Dedicated limiter applied inside enquiries router to POST only
 app.use('/api/stats', statsRoutes);
 app.use('/api/upload', uploadRoutes);
 
@@ -92,16 +97,19 @@ const PORT = process.env.PORT || 5050;
 let server;
 const startServer = async () => {
   try {
+    validateStartupSecurity();
     await connectDB();
 
-    // Auto-seed if database is empty or running on embedded instance
-    const productCount = await Product.countDocuments();
-    if (productCount === 0) {
-      console.log('Database appears empty. Executing automatic initial seed...');
-      await runSeed();
+    // Auto-seed ONLY if running on embedded in-memory database and it is empty.
+    // External databases (Atlas) must NEVER be automatically seeded or modified on startup to preserve production records.
+    if (isEmbeddedDB()) {
+      const productCount = await Product.countDocuments();
+      if (productCount === 0) {
+        console.log('Embedded in-memory database is empty. Executing initial dev seed...');
+        await runSeed();
+      }
     } else {
-      // Ensure admin is provisioned even if products were already seeded
-      await provisionAdminAccount();
+      console.log('Connected to external MongoDB database. Preserving existing records and admin accounts without seeding.');
     }
 
     server = app.listen(PORT, () => {
@@ -111,14 +119,16 @@ const startServer = async () => {
       console.log(`🔗 Health Check: http://localhost:${PORT}/api/health`);
       console.log(`====================================================`);
     });
+    return server;
   } catch (error) {
-    console.error('Failed to start server:', error);
+    console.error('Failed to start server:', error.message);
     process.exit(1);
   }
 };
 
-if (process.env.NODE_ENV !== 'test') {
+// Start server when run directly from Node CLI
+if (require.main === module) {
   startServer();
 }
 
-module.exports = { app, startServer };
+module.exports = { app, startServer, getCorsOptions, validateStartupSecurity };

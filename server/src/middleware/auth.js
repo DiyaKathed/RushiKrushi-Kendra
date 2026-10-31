@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
+const { getJwtSecret } = require('../config/jwt');
 
 const protect = async (req, res, next) => {
   let token;
@@ -19,10 +20,8 @@ const protect = async (req, res, next) => {
   }
 
   try {
-    const decoded = jwt.verify(
-      token,
-      process.env.JWT_SECRET || 'rushikrushi_jwt_secret_dev_key_2026'
-    );
+    const secret = getJwtSecret();
+    const decoded = jwt.verify(token, secret);
     const user = await User.findById(decoded.id);
 
     if (!user) {
@@ -35,6 +34,13 @@ const protect = async (req, res, next) => {
     req.user = user;
     next();
   } catch (err) {
+    if (err.message && err.message.startsWith('FATAL:')) {
+      console.error(`[Auth Security Alert] ${err.message}`);
+      return res.status(500).json({
+        success: false,
+        message: 'Authentication service configuration error',
+      });
+    }
     return res.status(401).json({
       success: false,
       message: 'Invalid or expired session token, please sign in again',

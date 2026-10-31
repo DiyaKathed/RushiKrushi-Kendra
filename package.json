@@ -4,6 +4,7 @@
   "description": "Bilingual Agricultural Website & Farmer Education Platform for Rushi Krushi Seva Kendra",
   "scripts": {
     "dev": "concurrently -n \"SERVER,CLIENT\" -c \"green,blue\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:local": "USE_LOCAL_DB=true concurrently -n \"SERVER,CLIENT\" -c \"green,blue\" \"npm run dev:local --prefix server\" \"npm run dev --prefix client\"",
     "dev:server": "npm run dev --prefix server",
     "dev:client": "npm run dev --prefix client",
     "build": "npm run build --prefix client",
@@ -18,6 +19,6 @@
   "author": "Mahadeo Savleram Dhobale / Rushi Krushi Seva Kendra",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^10.0.6"
   }
 }

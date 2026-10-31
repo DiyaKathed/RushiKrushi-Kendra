@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
+    "dev:local": "USE_LOCAL_DB=true node --watch src/server.js",
     "seed": "node src/seed/seed.js",
     "admin:provision": "node src/scripts/provisionAdmin.js",
     "test": "node --test tests/**/*.test.js"
@@ -22,6 +23,7 @@
     "mongodb-memory-server": "^10.1.4",
     "mongoose": "^8.9.5",
     "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^10.1.0"
   }
 }

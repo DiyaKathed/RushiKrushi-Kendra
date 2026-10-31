@@ -49,7 +49,8 @@ async function provisionAdminAccount(options = {}) {
     : crypto.randomBytes(16).toString('hex');
 
   // If using an auto-generated password, set a 24-hour setup reset code so admin can configure their password immediately
-  const setupCode = Math.floor(100000 + Math.random() * 900000).toString();
+  const setupCode = crypto.randomInt(100000, 1000000).toString();
+  const hashedSetupCode = crypto.createHash('sha256').update(setupCode).digest('hex');
 
   user = await User.create({
     name: targetName,
@@ -62,8 +63,9 @@ async function provisionAdminAccount(options = {}) {
     taluka: 'Ambegaon',
     district: 'Pune',
     isVerified: true,
-    resetPasswordToken: !envPassword ? setupCode : undefined,
+    resetPasswordToken: !envPassword ? hashedSetupCode : undefined,
     resetPasswordExpire: !envPassword ? new Date(Date.now() + 24 * 60 * 60 * 1000) : undefined,
+    resetPasswordAttempts: 0,
   });
 
   console.log(`[Admin Provisioning] Created new administrator: ${user.name} (${targetEmail})`);
