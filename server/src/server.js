@@ -25,6 +25,7 @@ const cropRoutes = require('./routes/crops');
 const farmerCropRoutes = require('./routes/farmerCrops');
 const articleRoutes = require('./routes/articles');
 const enquiryRoutes = require('./routes/enquiries');
+const bookingRoutes = require('./routes/bookingRoutes');
 const statsRoutes = require('./routes/stats');
 const uploadRoutes = require('./routes/upload');
 
@@ -78,6 +79,7 @@ app.use('/api/crops', cropRoutes);
 app.use('/api/farmer-crops', farmerCropRoutes);
 app.use('/api/articles', articleRoutes);
 app.use('/api/enquiries', enquiryRoutes); // Dedicated limiter applied inside enquiries router to POST only
+app.use('/api/bookings', bookingRoutes);
 app.use('/api/stats', statsRoutes);
 app.use('/api/upload', uploadRoutes);
 

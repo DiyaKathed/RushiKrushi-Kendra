@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import BookingForm from '../components/BookingForm';
 import {
   Phone,
   Mail,
@@ -317,6 +318,11 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <BookingForm />
+        </div>
+      </section>
     </div>
   );
 };

@@ -159,6 +159,12 @@ export const getEnquiries = () => api.get('/enquiries');
 export const updateEnquiryStatus = (id, status) => api.put(`/enquiries/${id}/status`, { status });
 export const deleteEnquiry = (id) => api.delete(`/enquiries/${id}`);
 
+// Appointment Bookings API
+export const submitBooking = (data) => api.post('/bookings', data);
+export const getBookings = () => api.get('/bookings');
+export const updateBookingStatus = (id, status) =>
+  api.put(`/bookings/${id}/status`, { status });
+export const deleteBooking = (id) => api.delete(`/bookings/${id}`);
 // Admin Stats
 export const getAdminStats = () => api.get('/stats');
 

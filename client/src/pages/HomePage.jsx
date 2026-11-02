@@ -25,7 +25,24 @@ import CropCard from '../components/CropCard';
 const HomePage = () => {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language || 'en';
-
+    // Why Choose Us - Hardcoded Data
+  const features = [
+    {
+      title: "Quality Products",
+      description: "We provide quality agricultural products to farmers.",
+      icon: "🌱"
+    },
+    {
+      title: "Expert Guidance",
+      description: "We help farmers with farming-related guidance.",
+      icon: "👨‍🌾"
+    },
+    {
+      title: "Farmer Support",
+      description: "We are committed to supporting our farming community.",
+      icon: "🤝"
+    }
+  ];
   const [featuredProducts, setFeaturedProducts] = useState([]);
   const [featuredCrops, setFeaturedCrops] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -357,6 +374,43 @@ const HomePage = () => {
               <p className="text-[#F2C94C]">Pargaon, Ambegaon, Pune</p>
             </div>
           </div>
+        </div>
+      </section>
+      
+      {/* WHY CHOOSE US SECTION */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <div className="text-center mb-10">
+          <h2 className="text-3xl font-extrabold text-[#245C2A]">
+            Why Choose Us?
+          </h2>
+
+          <p className="text-gray-600 mt-3">
+            Your trusted partner in agriculture
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className="bg-white border border-[#D7E1D1] rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition"
+            >
+              <div className="text-4xl mb-4">
+                {feature.icon}
+              </div>
+
+              <h3 className="text-xl font-bold text-[#245C2A] mb-3">
+                {feature.title}
+              </h3>
+
+              <p className="text-gray-600">
+                {feature.description}
+              </p>
+            </div>
+          ))}
+
         </div>
       </section>
 
