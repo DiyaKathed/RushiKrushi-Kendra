@@ -1,8 +1,10 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
 import ProtectedRoute from './components/ProtectedRoute';
+
+// Layouts
+import PublicLayout from './layouts/PublicLayout';
+import AdminLayout from './layouts/AdminLayout';
 
 // Public Pages
 import HomePage from './pages/HomePage';
@@ -25,6 +27,7 @@ import MyCropsPage from './pages/farmer/MyCropsPage';
 import AddEditCropPage from './pages/farmer/AddEditCropPage';
 
 // Admin Pages
+import AdminLoginPage from './pages/admin/AdminLoginPage';
 import AdminDashboardPage from './pages/admin/AdminDashboardPage';
 import AdminProductsPage from './pages/admin/AdminProductsPage';
 import AdminProductFormPage from './pages/admin/AdminProductFormPage';
@@ -37,167 +40,94 @@ import AdminAppointmentsPage from './pages/admin/AdminAppointmentsPage';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#fbfbf8] text-stone-900">
-      <Header />
-      <main className="flex-1">
-        <Routes>
-          {/* Public Routes */}
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/products" element={<ProductsPage />} />
-          <Route path="/products/:slug" element={<ProductDetailPage />} />
-          <Route path="/farming-guide" element={<FarmingGuidePage />} />
-          <Route path="/farming-guide/crops/:slug" element={<CropDetailPage />} />
-          <Route path="/farming-guide/articles/:slug" element={<ArticleDetailPage />} />
-          <Route path="/inputs" element={<InputsKnowledgePage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/forgot-password" element={<ForgotPasswordPage />} />
-          <Route path="/admin/login" element={<LoginPage />} />
+    <Routes>
+      {/* 1. Public Farmer Website & Customer Routes (with Public Header & Footer) */}
+      <Route element={<PublicLayout />}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/products" element={<ProductsPage />} />
+        <Route path="/products/:slug" element={<ProductDetailPage />} />
+        <Route path="/farming-guide" element={<FarmingGuidePage />} />
+        <Route path="/farming-guide/crops/:slug" element={<CropDetailPage />} />
+        <Route path="/farming-guide/articles/:slug" element={<ArticleDetailPage />} />
+        <Route path="/inputs" element={<InputsKnowledgePage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/forgot-password" element={<ForgotPasswordPage />} />
 
-          {/* Farmer Protected Routes */}
-          <Route
-            path="/farmer/dashboard"
-            element={
-              <ProtectedRoute>
-                <FarmerDashboardPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/farmer/profile"
-            element={
-              <ProtectedRoute>
-                <FarmerProfilePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/farmer/crops"
-            element={
-              <ProtectedRoute>
-                <MyCropsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/farmer/crops/add"
-            element={
-              <ProtectedRoute>
-                <AddEditCropPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/farmer/crops/:id"
-            element={
-              <ProtectedRoute>
-                <AddEditCropPage />
-              </ProtectedRoute>
-            }
-          />
+        {/* Farmer Protected Routes */}
+        <Route
+          path="/farmer/dashboard"
+          element={
+            <ProtectedRoute>
+              <FarmerDashboardPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/farmer/profile"
+          element={
+            <ProtectedRoute>
+              <FarmerProfilePage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/farmer/crops"
+          element={
+            <ProtectedRoute>
+              <MyCropsPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/farmer/crops/add"
+          element={
+            <ProtectedRoute>
+              <AddEditCropPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/farmer/crops/:id"
+          element={
+            <ProtectedRoute>
+              <AddEditCropPage />
+            </ProtectedRoute>
+          }
+        />
+      </Route>
 
-          {/* Administrator Protected Routes */}
-          <Route
-            path="/admin/dashboard"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminDashboardPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/products"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminProductsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/products/new"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminProductFormPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/products/:id/edit"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminProductFormPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/crops"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminCropsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/crops/new"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminCropFormPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/crops/:id/edit"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminCropFormPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/articles"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminArticlesPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/articles/new"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminArticleFormPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/articles/:id/edit"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminArticleFormPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/enquiries"
-            element={
-              <ProtectedRoute roleRequired="admin">
-                <AdminEnquiriesPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/admin/appointments"
-            element={<AdminAppointmentsPage />}
-          />
+      {/* 2. Dedicated Administrator Login Portal */}
+      <Route path="/admin/login" element={<AdminLoginPage />} />
 
-          {/* Fallback */}
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </main>
-      <Footer />
-    </div>
+      {/* 3. Protected Administrator Control Panel (Dedicated AdminLayout) */}
+      <Route
+        element={
+          <ProtectedRoute roleRequired="admin">
+            <AdminLayout />
+          </ProtectedRoute>
+        }
+      >
+        <Route path="/admin" element={<Navigate to="/admin/dashboard" replace />} />
+        <Route path="/admin/dashboard" element={<AdminDashboardPage />} />
+        <Route path="/admin/products" element={<AdminProductsPage />} />
+        <Route path="/admin/products/new" element={<AdminProductFormPage />} />
+        <Route path="/admin/products/:id/edit" element={<AdminProductFormPage />} />
+        <Route path="/admin/crops" element={<AdminCropsPage />} />
+        <Route path="/admin/crops/new" element={<AdminCropFormPage />} />
+        <Route path="/admin/crops/:id/edit" element={<AdminCropFormPage />} />
+        <Route path="/admin/articles" element={<AdminArticlesPage />} />
+        <Route path="/admin/articles/new" element={<AdminArticleFormPage />} />
+        <Route path="/admin/articles/:id/edit" element={<AdminArticleFormPage />} />
+        <Route path="/admin/enquiries" element={<AdminEnquiriesPage />} />
+        <Route path="/admin/appointments" element={<AdminAppointmentsPage />} />
+      </Route>
+
+      {/* 4. Global Fallback */}
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   );
 }
 

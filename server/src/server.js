@@ -1,13 +1,8 @@
 const { connectDB, isEmbeddedDB } = require('./config/db');
 const fs = require('fs');
 const path = require('path');
-// Load default environment variables
+// Load environment configuration from server/.env (standardized on MongoDB Atlas)
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
-// If .env.local exists, load it with overrides (for local development database settings)
-const localEnvPath = path.resolve(__dirname, '../.env.local');
-if (fs.existsSync(localEnvPath)) {
-  require('dotenv').config({ path: localEnvPath, override: true });
-}
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');

@@ -118,11 +118,6 @@ const Footer = () => {
                   <span>›</span> {t('nav.contact')}
                 </Link>
               </li>
-              <li>
-                <Link to="/admin/login" className="text-stone-400 hover:text-amber-400 transition text-xs flex items-center gap-1.5 pt-2">
-                  <span>›</span> {currentLang === 'mr' ? 'प्रशासक लॉगिन (Admin)' : 'Admin Portal Login'}
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -218,7 +213,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Rushi Krushi Seva Kendra (ऋषी कृषी सेवा केंद्र).{' '}
             {currentLang === 'mr' ? 'सर्व हक्क राखीव.' : 'All rights reserved.'}
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap">
             <span className="flex items-center gap-1">
               <span>{currentLang === 'mr' ? 'महाराष्ट्रातील शेतकऱ्यांसाठी समर्पित' : 'Dedicated to Maharashtra farmers'}</span>
               <Heart className="w-3 h-3 text-rose-500 fill-rose-500" />
@@ -228,6 +223,14 @@ const Footer = () => {
             </Link>
             <Link to="/contact" className="hover:text-stone-200 transition">
               {t('nav.contact')}
+            </Link>
+            <span className="text-stone-700 select-none">|</span>
+            <Link
+              to="/admin/login"
+              className="text-stone-500 hover:text-stone-300 transition text-[11px]"
+              title="Store Administrator Portal"
+            >
+              {currentLang === 'mr' ? 'प्रशासक प्रवेश' : 'Admin Login'}
             </Link>
           </div>
         </div>

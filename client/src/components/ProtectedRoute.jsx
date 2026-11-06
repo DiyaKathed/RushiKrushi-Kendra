@@ -24,7 +24,8 @@ export const ProtectedRoute = ({ children, roleRequired }) => {
   }
 
   if (roleRequired && user?.role !== roleRequired) {
-    return <Navigate to="/" replace />;
+    const fallback = roleRequired === 'admin' ? '/admin/login' : '/';
+    return <Navigate to={fallback} state={{ unauthorized: true, from: location }} replace />;
   }
 
   return children;

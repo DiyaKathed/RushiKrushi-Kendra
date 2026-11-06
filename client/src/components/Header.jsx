@@ -9,7 +9,6 @@ import {
   Menu,
   X,
   User,
-  ShieldAlert,
   Sprout,
   LogOut,
   Layers,
@@ -18,7 +17,7 @@ import {
 
 const Header = () => {
   const { t, i18n } = useTranslation();
-  const { user, isAuthenticated, isAdmin, logout } = useAuth();
+  const { user, isAuthenticated, logout } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [userDropdownOpen, setUserDropdownOpen] = useState(false);
   const navigate = useNavigate();
@@ -153,57 +152,39 @@ const Header = () => {
                 >
                   <User className="w-4 h-4 text-agro-forest" />
                   <span className="max-w-[120px] truncate">{user?.name}</span>
-                  {isAdmin && (
-                    <span className="bg-amber-100 text-amber-800 text-[10px] font-bold px-1.5 py-0.5 rounded">
-                      Admin
-                    </span>
-                  )}
                 </button>
 
                 {userDropdownOpen && (
                   <div className="absolute right-0 mt-2 w-56 rounded-lg bg-white shadow-xl border border-stone-200 py-1.5 z-50">
                     <div className="px-4 py-2 border-b border-stone-100">
-                      <p className="text-xs text-stone-500">{t('common.proprietor')}</p>
                       <p className="text-sm font-semibold text-stone-800 truncate">{user?.name}</p>
+                      <p className="text-xs text-stone-500 truncate">{user?.phone || user?.email}</p>
                     </div>
 
-                    {isAdmin ? (
-                      <Link
-                        to="/admin/dashboard"
-                        onClick={() => setUserDropdownOpen(false)}
-                        className="flex items-center gap-2 px-4 py-2 text-sm text-stone-700 hover:bg-agro-50 hover:text-agro-dark"
-                      >
-                        <ShieldAlert className="w-4 h-4 text-amber-600" />
-                        <span>{t('admin.dashboardTitle')}</span>
-                      </Link>
-                    ) : (
-                      <>
-                        <Link
-                          to="/farmer/dashboard"
-                          onClick={() => setUserDropdownOpen(false)}
-                          className="flex items-center gap-2 px-4 py-2 text-sm text-stone-700 hover:bg-agro-50 hover:text-agro-dark"
-                        >
-                          <Layers className="w-4 h-4 text-agro-forest" />
-                          <span>{t('nav.farmerDashboard')}</span>
-                        </Link>
-                        <Link
-                          to="/farmer/crops"
-                          onClick={() => setUserDropdownOpen(false)}
-                          className="flex items-center gap-2 px-4 py-2 text-sm text-stone-700 hover:bg-agro-50 hover:text-agro-dark"
-                        >
-                          <Sprout className="w-4 h-4 text-agro-forest" />
-                          <span>{t('nav.myCrops')}</span>
-                        </Link>
-                        <Link
-                          to="/farmer/profile"
-                          onClick={() => setUserDropdownOpen(false)}
-                          className="flex items-center gap-2 px-4 py-2 text-sm text-stone-700 hover:bg-agro-50 hover:text-agro-dark"
-                        >
-                          <User className="w-4 h-4 text-agro-forest" />
-                          <span>{t('nav.profile')}</span>
-                        </Link>
-                      </>
-                    )}
+                    <Link
+                      to="/farmer/dashboard"
+                      onClick={() => setUserDropdownOpen(false)}
+                      className="flex items-center gap-2 px-4 py-2 text-sm text-stone-700 hover:bg-agro-50 hover:text-agro-dark"
+                    >
+                      <Layers className="w-4 h-4 text-agro-forest" />
+                      <span>{t('nav.farmerDashboard')}</span>
+                    </Link>
+                    <Link
+                      to="/farmer/crops"
+                      onClick={() => setUserDropdownOpen(false)}
+                      className="flex items-center gap-2 px-4 py-2 text-sm text-stone-700 hover:bg-agro-50 hover:text-agro-dark"
+                    >
+                      <Sprout className="w-4 h-4 text-agro-forest" />
+                      <span>{t('nav.myCrops')}</span>
+                    </Link>
+                    <Link
+                      to="/farmer/profile"
+                      onClick={() => setUserDropdownOpen(false)}
+                      className="flex items-center gap-2 px-4 py-2 text-sm text-stone-700 hover:bg-agro-50 hover:text-agro-dark"
+                    >
+                      <User className="w-4 h-4 text-agro-forest" />
+                      <span>{t('nav.profile')}</span>
+                    </Link>
 
                     <div className="border-t border-stone-100 my-1"></div>
                     <button
@@ -318,41 +299,29 @@ const Header = () => {
             {isAuthenticated ? (
               <div className="space-y-2">
                 <div className="px-3 py-1 text-sm font-semibold text-agro-forest">
-                  {user?.name} {isAdmin && '(Admin)'}
+                  {user?.name}
                 </div>
-                {isAdmin ? (
-                  <Link
-                    to="/admin/dashboard"
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="block px-3 py-2 rounded-md text-sm font-medium bg-amber-50 text-amber-900"
-                  >
-                    {t('admin.dashboardTitle')}
-                  </Link>
-                ) : (
-                  <>
-                    <Link
-                      to="/farmer/dashboard"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="block px-3 py-2 rounded-md text-sm font-medium bg-agro-50 text-agro-dark"
-                    >
-                      {t('nav.farmerDashboard')}
-                    </Link>
-                    <Link
-                      to="/farmer/crops"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="block px-3 py-2 rounded-md text-sm font-medium text-stone-700 hover:bg-stone-50"
-                    >
-                      {t('nav.myCrops')}
-                    </Link>
-                    <Link
-                      to="/farmer/profile"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="block px-3 py-2 rounded-md text-sm font-medium text-stone-700 hover:bg-stone-50"
-                    >
-                      {t('nav.profile')}
-                    </Link>
-                  </>
-                )}
+                <Link
+                  to="/farmer/dashboard"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block px-3 py-2 rounded-md text-sm font-medium bg-agro-50 text-agro-dark"
+                >
+                  {t('nav.farmerDashboard')}
+                </Link>
+                <Link
+                  to="/farmer/crops"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block px-3 py-2 rounded-md text-sm font-medium text-stone-700 hover:bg-stone-50"
+                >
+                  {t('nav.myCrops')}
+                </Link>
+                <Link
+                  to="/farmer/profile"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block px-3 py-2 rounded-md text-sm font-medium text-stone-700 hover:bg-stone-50"
+                >
+                  {t('nav.profile')}
+                </Link>
                 <button
                   type="button"
                   onClick={handleLogout}

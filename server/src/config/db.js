@@ -73,12 +73,6 @@ const connectDB = async () => {
 
   let mongoURI = process.env.MONGODB_URI || process.env.MONGO_URI;
 
-  // Allow explicit switch to local MongoDB Community Server in non-production environments
-  if (process.env.NODE_ENV !== 'production' && process.env.USE_LOCAL_DB === 'true') {
-    mongoURI = process.env.MONGODB_LOCAL_URI || 'mongodb://127.0.0.1:27017/RushiKrushiSevaKendra';
-    console.log('[Database] Explicit USE_LOCAL_DB flag detected: Connecting to local MongoDB Community Server...');
-  }
-
   if (!mongoURI) {
     if (process.env.NODE_ENV === 'production') {
       isConnecting = false;
