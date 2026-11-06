@@ -13,6 +13,7 @@ import {
   TrendingUp,
   CheckCircle2,
   Clock,
+  CalendarDays,
   Sparkles
 } from 'lucide-react';
 import { getAdminStats } from '../../services/api';
@@ -86,9 +87,11 @@ const AdminDashboardPage = () => {
             <ShoppingBag className="w-4 h-4 text-[#245C2A]" />
           </div>
           <p className="text-2xl font-black text-[#263328]">{stats?.totalProducts ?? '—'}</p>
-          <span className="text-[11px] text-[#438A35] font-semibold block">
-            {stats?.publishedProducts ?? 0} Published
-          </span>
+          <div className="flex items-center gap-1.5 text-[11px] font-semibold">
+            <span className="text-[#438A35]">{stats?.publishedProducts ?? 0} Active</span>
+            <span className="text-[#5D685B]">•</span>
+            <span className="text-amber-700">{stats?.archivedProducts ?? 0} Archived</span>
+          </div>
         </div>
 
         {/* Crop Guides */}
@@ -263,6 +266,31 @@ const AdminDashboardPage = () => {
               Review Enquiries ({stats?.pendingEnquiries ?? 0} Pending) →
             </Link>
           </div>
+        </div>
+      </div>
+      {/* Manage Appointments Card */}
+      <div className="bg-white rounded-xl border border-[#D7E1D1] shadow-card p-6 space-y-4 hover:border-[#438A35] transition flex flex-col justify-between">
+        <div className="space-y-3">
+          <div className="w-12 h-12 rounded-lg bg-[#EAF2E3] text-[#245C2A] border border-[#D7E1D1] flex items-center justify-center">
+            <CalendarDays className="w-6 h-6" />
+          </div>
+
+          <h2 className="text-lg font-bold text-[#263328]">
+            Manage Appointments
+          </h2>
+
+          <p className="text-xs text-[#5D685B] leading-relaxed">
+            View customer appointments, check selected dates and time slots, and manage booking status.
+          </p>
+        </div>
+
+        <div className="pt-3 border-t border-[#D7E1D1]">
+          <Link
+            to="/admin/appointments"
+            className="text-xs font-bold text-[#245C2A] hover:text-[#438A35]"
+          >
+            View Appointments →
+          </Link>
         </div>
       </div>
     </div>

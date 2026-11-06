@@ -33,6 +33,7 @@ import AdminCropFormPage from './pages/admin/AdminCropFormPage';
 import AdminArticlesPage from './pages/admin/AdminArticlesPage';
 import AdminArticleFormPage from './pages/admin/AdminArticleFormPage';
 import AdminEnquiriesPage from './pages/admin/AdminEnquiriesPage';
+import AdminAppointmentsPage from './pages/admin/AdminAppointmentsPage';
 
 function App() {
   return (
@@ -185,6 +186,10 @@ function App() {
                 <AdminEnquiriesPage />
               </ProtectedRoute>
             }
+          />
+          <Route
+            path="/admin/appointments"
+            element={<AdminAppointmentsPage />}
           />
 
           {/* Fallback */}

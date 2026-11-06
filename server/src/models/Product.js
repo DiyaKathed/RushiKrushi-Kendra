@@ -8,8 +8,8 @@ const productSchema = new mongoose.Schema({
   },
   nameMr: {
     type: String,
-    required: [true, 'Please provide Marathi product name'],
     trim: true,
+    default: '',
   },
   slug: {
     type: String,
@@ -20,6 +20,7 @@ const productSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please provide product brand / manufacturer'],
     trim: true,
+    index: true,
   },
   category: {
     type: String,
@@ -57,6 +58,66 @@ const productSchema = new mongoose.Schema({
     type: String,
     trim: true,
   }],
+  variants: [{
+    packSize: {
+      type: String,
+      trim: true,
+    },
+    mrp: {
+      type: Number,
+      default: null,
+      min: [0, 'MRP cannot be negative'],
+    },
+    regularInvoicePrice: {
+      type: Number,
+      default: null,
+      min: [0, 'Regular invoice price cannot be negative'],
+    },
+    packInCarton: {
+      type: Number,
+      default: null,
+    },
+    cartonWeightKg: {
+      type: Number,
+      default: null,
+    },
+    cartonBillingPrice: {
+      type: Number,
+      default: null,
+    },
+    sourcePage: {
+      type: Number,
+      default: null,
+    },
+    sourceCategory: {
+      type: String,
+      default: '',
+    },
+  }],
+  stockQuantity: {
+    type: Number,
+    default: null,
+    min: [0, 'Stock quantity cannot be negative'],
+  },
+  price: {
+    type: Number,
+    default: null,
+    min: [0, 'Price cannot be negative'],
+  },
+  regularInvoicePrice: {
+    type: Number,
+    default: null,
+    min: [0, 'Regular invoice price cannot be negative'],
+  },
+  indicativePrice: {
+    type: String,
+    default: '',
+  },
+  priceListDate: {
+    type: String,
+    default: '',
+    trim: true,
+  },
   technicalComposition: {
     type: String,
     trim: true,
@@ -86,10 +147,6 @@ const productSchema = new mongoose.Schema({
     type: String,
     default: '',
   },
-  indicativePrice: {
-    type: String,
-    default: '',
-  },
   availability: {
     type: String,
     enum: ['in_stock', 'out_of_stock', 'seasonal'],
@@ -103,15 +160,51 @@ const productSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ['published', 'draft'],
+    enum: ['published', 'draft', 'archived'],
     default: 'published',
     index: true,
   },
+  isArchived: {
+    type: Boolean,
+    default: false,
+    index: true,
+  },
+  archivedAt: {
+    type: Date,
+    default: null,
+  },
+  archivedReason: {
+    type: String,
+    default: '',
+    trim: true,
+  },
 }, {
   timestamps: true,
+  toJSON: { virtuals: true },
+  toObject: { virtuals: true },
 });
 
-// Generate slug before saving
+// Support company as virtual alias for brand
+productSchema.virtual('company')
+  .get(function () {
+    return this.brand;
+  })
+  .set(function (val) {
+    this.brand = val;
+  });
+
+// Pre-validate hook: safe nameMr fallback to nameEn and company fallback to brand
+productSchema.pre('validate', function (next) {
+  if ((!this.nameMr || this.nameMr.trim() === '') && this.nameEn) {
+    this.nameMr = this.nameEn.trim();
+  }
+  if ((!this.brand || this.brand.trim() === '') && this.company) {
+    this.brand = this.company.trim();
+  }
+  next();
+});
+
+// Generate slug before saving and safely synchronize availability with stockQuantity
 productSchema.pre('save', function (next) {
   if (!this.slug || this.isModified('nameEn')) {
     this.slug = this.nameEn
@@ -119,6 +212,36 @@ productSchema.pre('save', function (next) {
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/(^-|-$)+/g, '') + '-' + Date.now().toString().slice(-4);
   }
+
+  // Automatically synchronize availability with stockQuantity when stockQuantity is explicitly modified
+  // while ensuring existing products without stockQuantity are not accidentally marked out of stock.
+  if (this.isModified('stockQuantity') && !this.isModified('availability')) {
+    if (this.stockQuantity > 0 && this.availability !== 'seasonal') {
+      this.availability = 'in_stock';
+    } else if (this.stockQuantity === 0 && !this.isNew && this.availability === 'in_stock') {
+      this.availability = 'out_of_stock';
+    }
+  }
+
+  // Synchronize status and isArchived
+  if (this.isModified('status')) {
+    if (this.status === 'archived') {
+      this.isArchived = true;
+      if (!this.archivedAt) this.archivedAt = new Date();
+    } else if (this.isArchived) {
+      this.isArchived = false;
+      this.archivedAt = null;
+    }
+  } else if (this.isModified('isArchived')) {
+    if (this.isArchived) {
+      this.status = 'archived';
+      if (!this.archivedAt) this.archivedAt = new Date();
+    } else if (this.status === 'archived') {
+      this.status = 'published';
+      this.archivedAt = null;
+    }
+  }
+
   next();
 });
 

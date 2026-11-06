@@ -50,6 +50,8 @@ if (process.env.NODE_ENV !== 'test') {
 
 // Serve uploaded media statically
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+// Serve public product images statically if accessed via backend
+app.use('/images', express.static(path.join(__dirname, '../../client/public/images')));
 
 // Rate Limiter for Authentication Endpoints
 const authLimiter = rateLimit({

@@ -1,0 +1,2359 @@
+[
+  {
+    "id": "6ae60938c8bd42e4d54310b2",
+    "slug": "custodia-fungicide-azoxystrobin-tebuconazole",
+    "nameEn": "Custodia Fungicide (Azoxystrobin 11% + Tebuconazole 18.3% SC)",
+    "nameMr": "कस्टोडिया बुरशीनाशक (अ‍ॅझॉक्सीस्ट्रॉबिन ११% + टेबुकोनॅझोल १८.३% एससी)",
+    "brand": "ADAMA India",
+    "category": "Fungicides",
+    "packSizes": [
+      "100 ml",
+      "250 ml",
+      "500 ml",
+      "1 Liter"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Replaced generic Unsplash stock photo with clean agricultural placeholder. Official manufacturer pack shot pending authorization."
+  },
+  {
+    "id": "6ae60938c8bd42e4d54310b6",
+    "slug": "aspee-battery-operated-knapsack-sprayer-16l",
+    "nameEn": "Aspee Battery Operated Knapsack Sprayer 16L (12V/12Ah)",
+    "nameMr": "अस्पी बॅटरी ऑपरेटेड नॅपसॅक फवारणी पंप (१६ लिटर)",
+    "brand": "Aspee Agricultural Equipment",
+    "category": "Spray Pumps",
+    "packSizes": [
+      "1 Unit (with charger & nozzle set)"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/aspee-battery-operated-knapsack-sprayer-16l.webp",
+    "source": "ASPEE Official Website Catalogue (aspee.com)",
+    "attribution": "Aspee Agricultural Equipment Pvt. Ltd.",
+    "notes": "Official manufacturer product photograph from Aspee India catalogue",
+    "dimensions": [
+      347,
+      347
+    ],
+    "fileSizeBytes": 8408
+  },
+  {
+    "id": "6ae60938c8bd42e4d54310aa",
+    "slug": "coragen-insecticide-rynaxypyr-18-5-sc",
+    "nameEn": "Coragen Insecticide (Rynaxypyr 18.5% SC)",
+    "nameMr": "कोराजन कीटकनाशक (रिनॅक्सिपायर १८.५% एससी)",
+    "brand": "FMC India",
+    "category": "Insecticides",
+    "packSizes": [
+      "10 ml",
+      "30 ml",
+      "60 ml",
+      "150 ml"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Replaced generic Unsplash stock photo with clean agricultural placeholder. Official manufacturer pack shot pending authorization."
+  },
+  {
+    "id": "6ae60938c8bd42e4d54310ae",
+    "slug": "iffco-10-26-26-complex-npk-fertilizer",
+    "nameEn": "IFFCO 10:26:26 Complex NPK Fertilizer",
+    "nameMr": "इफ्को १०:२६:२६ एनपीके संयुक्त खत",
+    "brand": "IFFCO",
+    "category": "Fertilizers",
+    "packSizes": [
+      "50 kg Bag"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Replaced generic Unsplash stock photo with clean agricultural placeholder. Official manufacturer pack shot pending authorization."
+  },
+  {
+    "id": "6aecc06bbd47393e3197c67d",
+    "slug": "iffco-mc-aminos-1111",
+    "nameEn": "IFFCO-MC AMINOS",
+    "nameMr": "इफ्को-एमसी AMINOS",
+    "brand": "IFFCO-MC",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-aminos.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: AMINOS",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Aminos.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 35622
+  },
+  {
+    "id": "6aecc06bbd47393e3197c64f",
+    "slug": "iffco-mc-aniki-1098",
+    "nameEn": "IFFCO-MC ANIKI",
+    "nameMr": "इफ्को-एमसी ANIKI",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-aniki.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: ANIKI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Aniki.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 75614
+  },
+  {
+    "id": "6aecc06bbd47393e3197c57e",
+    "slug": "iffco-mc-atarashi-1066",
+    "nameEn": "IFFCO-MC ATARASHI",
+    "nameMr": "इफ्को-एमसी ATARASHI",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "350 ML",
+      "700 ML",
+      "1400 ML",
+      "3500 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-atarashi.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: ATARASHI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Atarashi-PNG-scaled.png",
+    "dimensions": [
+      783,
+      800
+    ],
+    "fileSizeBytes": 32070
+  },
+  {
+    "id": "6aecc06bbd47393e3197c51e",
+    "slug": "iffco-mc-atari-1009",
+    "nameEn": "IFFCO-MC ATARI",
+    "nameMr": "इफ्को-एमसी ATARI",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-atari.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: ATARI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Atari.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 70948
+  },
+  {
+    "id": "6aecc06bbd47393e3197c61b",
+    "slug": "iffco-mc-aza-nexa-1091",
+    "nameEn": "IFFCO-MC AZA-NEXA",
+    "nameMr": "इफ्को-एमसी AZA-NEXA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-aza-nexa.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: AZANEXA 3K",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2026/03/AzaNexa-3K.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 33566
+  },
+  {
+    "id": "6aecc06bbd47393e3197c574",
+    "slug": "iffco-mc-dango-1064",
+    "nameEn": "IFFCO-MC DANGO",
+    "nameMr": "इफ्को-एमसी DANGO",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML",
+      "5000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-dango.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: DANGO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Dango-yellow-green-scaled.png",
+    "dimensions": [
+      783,
+      800
+    ],
+    "fileSizeBytes": 41926
+  },
+  {
+    "id": "6aecc06bbd47393e3197c58f",
+    "slug": "iffco-mc-egao-1069",
+    "nameEn": "IFFCO-MC EGAO",
+    "nameMr": "इफ्को-एमसी EGAO",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "10 GM (1KG)",
+      "50 GM (2KG)",
+      "100 GM",
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-egao.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: EGAO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/07/Egao.webp",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 58226
+  },
+  {
+    "id": "6aecc06bbd47393e3197c56f",
+    "slug": "iffco-mc-enoshima-1063",
+    "nameEn": "IFFCO-MC ENOSHIMA",
+    "nameMr": "इफ्को-एमसी ENOSHIMA",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "1200 ML",
+      "400 ML",
+      "200 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-enoshima.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: ENOSHIMA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Enoshima-PNG-2.png",
+    "dimensions": [
+      704,
+      800
+    ],
+    "fileSizeBytes": 35184
+  },
+  {
+    "id": "6aecc06bbd47393e3197c527",
+    "slug": "iffco-mc-furusato-1043",
+    "nameEn": "IFFCO-MC FURUSATO",
+    "nameMr": "इफ्को-एमसी FURUSATO",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-furusato.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: FURUSATO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Furusato.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 36890
+  },
+  {
+    "id": "6aecc06bbd47393e3197c52c",
+    "slug": "iffco-mc-genki-1045",
+    "nameEn": "IFFCO-MC GENKI",
+    "nameMr": "इफ्को-एमसी GENKI",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "500 ML",
+      "1000 ML",
+      "5000 ML",
+      "20000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-genki.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: GENKI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Genki.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 47244
+  },
+  {
+    "id": "6aecc06bbd47393e3197c532",
+    "slug": "iffco-mc-genki-plus-1047",
+    "nameEn": "IFFCO-MC GENKI PLUS",
+    "nameMr": "इफ्को-एमसी GENKI PLUS",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "100 GM",
+      "500 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-genki-plus.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: GENKI PLUS",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Genki-Plus.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 63772
+  },
+  {
+    "id": "6aecc06bbd47393e3197c62e",
+    "slug": "iffco-mc-gozaru-1094",
+    "nameEn": "IFFCO-MC GOZARU",
+    "nameMr": "इफ्को-एमसी GOZARU",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-gozaru.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: GOZARU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Gozaru.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 51064
+  },
+  {
+    "id": "6aecc06bbd47393e3197c597",
+    "slug": "iffco-mc-hamada-1070",
+    "nameEn": "IFFCO-MC HAMADA",
+    "nameMr": "इफ्को-एमसी HAMADA",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-hamada.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: HAMADA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/07/Hamada.webp",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 36050
+  },
+  {
+    "id": "6aecc06bbd47393e3197c59c",
+    "slug": "iffco-mc-hibiki-1071",
+    "nameEn": "IFFCO-MC HIBIKI",
+    "nameMr": "इफ्को-एमसी HIBIKI",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-hibiki.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: HIBKI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/07/Hibiki.webp",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 38884
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5a1",
+    "slug": "iffco-mc-himawari-1072",
+    "nameEn": "IFFCO-MC HIMAWARI",
+    "nameMr": "इफ्को-एमसी HIMAWARI",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML",
+      "5000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-himawari.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: HIMAWARI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Himawari.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 29976
+  },
+  {
+    "id": "6aecc06bbd47393e3197c683",
+    "slug": "iffco-mc-humetsu-1112",
+    "nameEn": "IFFCO-MC HUMETSU",
+    "nameMr": "इफ्को-एमसी HUMETSU",
+    "brand": "IFFCO-MC",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML",
+      "5000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-humetsu.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: HUMETSU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Humetsu.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 44808
+  },
+  {
+    "id": "6aecc06bbd47393e3197c536",
+    "slug": "iffco-mc-ichigo-1048",
+    "nameEn": "IFFCO-MC ICHIGO",
+    "nameMr": "इफ्को-एमसी ICHIGO",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-ichigo.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: ICHIGO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Ichigo.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 34318
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5a8",
+    "slug": "iffco-mc-iruka-1073",
+    "nameEn": "IFFCO-MC IRUKA",
+    "nameMr": "इफ्को-एमसी IRUKA",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "80 ML",
+      "200ML",
+      "500ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-iruka.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: IRUKA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Iruka.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 35892
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5ad",
+    "slug": "iffco-mc-isogashi-1074",
+    "nameEn": "IFFCO-MC ISOGASHI",
+    "nameMr": "इफ्को-एमसी ISOGASHI",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-isogashi.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: ISOGASHI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Ishoogashi.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 40226
+  },
+  {
+    "id": "6aecc06bbd47393e3197c53b",
+    "slug": "iffco-mc-kabuto-1050",
+    "nameEn": "IFFCO-MC KABUTO",
+    "nameMr": "इफ्को-एमसी KABUTO",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML",
+      "5000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-kabuto.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KABUTO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Kabuto.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 39404
+  },
+  {
+    "id": "6aecc06bbd47393e3197c633",
+    "slug": "iffco-mc-kaguya-1095",
+    "nameEn": "IFFCO-MC KAGUYA",
+    "nameMr": "इफ्को-एमसी KAGUYA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "100 GM (5KG)",
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-kaguya.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KAGUYA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Kaguya-1.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 57360
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5b3",
+    "slug": "iffco-mc-kaitaku-1075",
+    "nameEn": "IFFCO-MC KAITAKU",
+    "nameMr": "इफ्को-एमसी KAITAKU",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 GM",
+      "250 GM",
+      "500 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-kaitaku.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KAITAKU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Kaitaku.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 57922
+  },
+  {
+    "id": "6aecc06bbd47393e3197c602",
+    "slug": "iffco-mc-kashima-1087",
+    "nameEn": "IFFCO-MC KASHIMA",
+    "nameMr": "इफ्को-एमसी KASHIMA",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "1000 GM",
+      "4000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-kashima.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KASHIMA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Kashima.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 64970
+  },
+  {
+    "id": "6aecc06bbd47393e3197c615",
+    "slug": "iffco-mc-katsu-50-sp-1090",
+    "nameEn": "IFFCO-MC KATSU 50 SP",
+    "nameMr": "इफ्को-एमसी KATSU 50 SP",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 GM",
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-katsu-50-sp.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KATSU 50 SP",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2026/03/Katsu-50-SP.png",
+    "dimensions": [
+      800,
+      788
+    ],
+    "fileSizeBytes": 54618
+  },
+  {
+    "id": "6aecc06bbd47393e3197c676",
+    "slug": "iffco-mc-kinfu-1110",
+    "nameEn": "IFFCO-MC KINFU",
+    "nameMr": "इफ्को-एमसी KINFU",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "25 ML",
+      "100 ML",
+      "200 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-kinfu.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KINFU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Kinfu-PNG-scaled.png",
+    "dimensions": [
+      783,
+      800
+    ],
+    "fileSizeBytes": 35416
+  },
+  {
+    "id": "6aecc06bbd47393e3197c63e",
+    "slug": "iffco-mc-kinki-1096",
+    "nameEn": "IFFCO-MC KINKI",
+    "nameMr": "इफ्को-एमसी KINKI",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML",
+      "5000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-kinki.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KINKI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Kinki.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 40786
+  },
+  {
+    "id": "6aecc06bbd47393e3197c66e",
+    "slug": "iffco-mc-kizuna-1106",
+    "nameEn": "IFFCO-MC KIZUNA",
+    "nameMr": "इफ्को-एमसी KIZUNA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "100 GM",
+      "200 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-kizuna.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KIZUNA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Kizuna.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 39376
+  },
+  {
+    "id": "6aecc06bbd47393e3197c545",
+    "slug": "iffco-mc-kokoro-1051",
+    "nameEn": "IFFCO-MC KOKORO",
+    "nameMr": "इफ्को-एमसी KOKORO",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "160 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-kokoro.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KOKORO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Kokoro.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 72508
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5b8",
+    "slug": "iffco-mc-konatsu-1077",
+    "nameEn": "IFFCO-MC KONATSU",
+    "nameMr": "इफ्को-एमसी KONATSU",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "20 ML",
+      "100 ML",
+      "180 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-konatsu.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: KONATSU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Konatsu.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 41528
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5bd",
+    "slug": "iffco-mc-mainichi-1077",
+    "nameEn": "IFFCO-MC MAINICHI",
+    "nameMr": "इफ्को-एमसी MAINICHI",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-mainichi.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: MAINICHI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Mainichi.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 35904
+  },
+  {
+    "id": "6aecc06bbd47393e3197c541",
+    "slug": "iffco-mc-makoto-1051",
+    "nameEn": "IFFCO-MC MAKOTO",
+    "nameMr": "इफ्को-एमसी MAKOTO",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "8 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-makoto.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: MAKOTO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Makoto.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 65680
+  },
+  {
+    "id": "6aecc06bbd47393e3197c69e",
+    "slug": "iffco-mc-mikozen-1115",
+    "nameEn": "IFFCO-MC MIKOZEN",
+    "nameMr": "इफ्को-एमसी MIKOZEN",
+    "brand": "IFFCO-MC",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "1000 GM",
+      "4000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-mikozen.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: MIKOZEN",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/MICOZEN-Updated.png",
+    "dimensions": [
+      600,
+      800
+    ],
+    "fileSizeBytes": 53438
+  },
+  {
+    "id": "6aecc06bbd47393e3197c56c",
+    "slug": "iffco-mc-monomi-1062",
+    "nameEn": "IFFCO-MC MONOMI",
+    "nameMr": "इफ्को-एमसी MONOMI",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "60 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-monomi.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: MONOMI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/MOMOJI-bottle-with-Green-Cap-scaled.png",
+    "dimensions": [
+      502,
+      800
+    ],
+    "fileSizeBytes": 42436
+  },
+  {
+    "id": "6aecc06bbd47393e3197c659",
+    "slug": "iffco-mc-moyashi-1100",
+    "nameEn": "IFFCO-MC MOYASHI",
+    "nameMr": "इफ्को-एमसी MOYASHI",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "100 GM",
+      "100 GM",
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-moyashi.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: MOYASHI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Moyashi.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 70472
+  },
+  {
+    "id": "6aecc06bbd47393e3197c557",
+    "slug": "iffco-mc-nobiru-1055",
+    "nameEn": "IFFCO-MC NOBIRU",
+    "nameMr": "इफ्को-एमसी NOBIRU",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML",
+      "5000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-nobiru.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: NOBIRU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Nobiru.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 34054
+  },
+  {
+    "id": "6aecc06bbd47393e3197c548",
+    "slug": "iffco-mc-ojika-1052",
+    "nameEn": "IFFCO-MC OJIKA",
+    "nameMr": "इफ्को-एमसी OJIKA",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "20 GM",
+      "80 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-ojika.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: OJIKA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Ojika.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 55044
+  },
+  {
+    "id": "6aecc06bbd47393e3197c64a",
+    "slug": "iffco-mc-pikapika-1097",
+    "nameEn": "IFFCO-MC PIKAPIKA",
+    "nameMr": "इफ्को-एमसी PIKAPIKA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-pikapika.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: PIKAPIKA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Pikapika-1.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 40158
+  },
+  {
+    "id": "6aecc06bbd47393e3197c54c",
+    "slug": "iffco-mc-ryusei-1053",
+    "nameEn": "IFFCO-MC RYUSEI",
+    "nameMr": "इफ्को-एमसी RYUSEI",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-ryusei.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: RYUSEI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Ryusei.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 46308
+  },
+  {
+    "id": "6aecc06bbd47393e3197c57a",
+    "slug": "iffco-mc-sagami-1065",
+    "nameEn": "IFFCO-MC SAGAMI",
+    "nameMr": "इफ्को-एमसी SAGAMI",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "15 ML",
+      "30 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-sagami.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SAGAMI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Sagami-updated-1-1-scaled.png",
+    "dimensions": [
+      622,
+      800
+    ],
+    "fileSizeBytes": 63288
+  },
+  {
+    "id": "6aecc06bbd47393e3197c660",
+    "slug": "iffco-mc-saikin-1100",
+    "nameEn": "IFFCO-MC SAIKIN",
+    "nameMr": "इफ्को-एमसी SAIKIN",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "120 GM",
+      "250 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-saikin.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SAIKIN",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Saikin.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 52332
+  },
+  {
+    "id": "6aecc06bbd47393e3197c68a",
+    "slug": "iffco-mc-sasage-1113",
+    "nameEn": "IFFCO-MC SASAGE",
+    "nameMr": "इफ्को-एमसी SASAGE",
+    "brand": "IFFCO-MC",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "1000 GM",
+      "3000 GM",
+      "1000 GM (30 KG)",
+      "3000 GM (30 KG)",
+      "30000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-sasage.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SASAGE",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Sasage.png",
+    "dimensions": [
+      800,
+      698
+    ],
+    "fileSizeBytes": 40328
+  },
+  {
+    "id": "6aecc06bbd47393e3197c645",
+    "slug": "iffco-mc-satsuma-1097",
+    "nameEn": "IFFCO-MC SATSUMA",
+    "nameMr": "इफ्को-एमसी SATSUMA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-satsuma.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SATSUMA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Satsuma.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 56322
+  },
+  {
+    "id": "6aecc06bbd47393e3197c664",
+    "slug": "iffco-mc-sayaka-1105",
+    "nameEn": "IFFCO-MC SAYAKA",
+    "nameMr": "इफ्को-एमसी SAYAKA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "200 ML",
+      "400 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-sayaka.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SAYAKA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Sayaka.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 42216
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5c2",
+    "slug": "iffco-mc-senpai-1078",
+    "nameEn": "IFFCO-MC SENPAI",
+    "nameMr": "इफ्को-एमसी SENPAI",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 GM",
+      "250 GM",
+      "500 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-senpai.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SENPAI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Senpai.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 79794
+  },
+  {
+    "id": "6aecc06bbd47393e3197c691",
+    "slug": "iffco-mc-shigoto-1114",
+    "nameEn": "IFFCO-MC SHIGOTO",
+    "nameMr": "इफ्को-एमसी SHIGOTO",
+    "brand": "IFFCO-MC",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "50 ML",
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shigoto.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHIGOTO-408",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Shigoto.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 36638
+  },
+  {
+    "id": "6aecc06bbd47393e3197c606",
+    "slug": "iffco-mc-shimo-1088",
+    "nameEn": "IFFCO-MC SHIMO",
+    "nameMr": "इफ्को-एमसी SHIMO",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "150ML",
+      "60 ML",
+      "30 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shimo.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHIMO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2026/03/Shimo-1.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 43744
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5c7",
+    "slug": "iffco-mc-shinzen-1079",
+    "nameEn": "IFFCO-MC SHINZEN",
+    "nameMr": "इफ्को-एमसी SHINZEN",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "1000 GM (25kg)",
+      "5000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shinzen.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHINZEN",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Shinzen.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 46446
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5cb",
+    "slug": "iffco-mc-shinzen-plus-1080",
+    "nameEn": "IFFCO-MC SHINZEN PLUS",
+    "nameMr": "इफ्को-एमसी SHINZEN PLUS",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shinzen-plus.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHINZEN PLUS",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Shinzen-Plus.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 38882
+  },
+  {
+    "id": "6aecc06bbd47393e3197c611",
+    "slug": "iffco-mc-shinzen-ultra-1089",
+    "nameEn": "IFFCO-MC SHINZEN ULTRA",
+    "nameMr": "इफ्को-एमसी SHINZEN ULTRA",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "1000 GM",
+      "4000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shinzen-ultra.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHINZEN ULTRA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2026/03/Shinzen-Ultra.png",
+    "dimensions": [
+      749,
+      800
+    ],
+    "fileSizeBytes": 45018
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5d7",
+    "slug": "iffco-mc-shirasagi-1081",
+    "nameEn": "IFFCO-MC SHIRASAGI",
+    "nameMr": "इफ्को-एमसी SHIRASAGI",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "40 GM (2KG)",
+      "100 GM (2.5KG)",
+      "250 GM",
+      "500 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shirasagi.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHIRASAGI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Shirasagi-Updated-packshort.png",
+    "dimensions": [
+      600,
+      800
+    ],
+    "fileSizeBytes": 43752
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5d1",
+    "slug": "iffco-mc-shoku-1081",
+    "nameEn": "IFFCO-MC SHOKU",
+    "nameMr": "इफ्को-एमसी SHOKU",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "25 GM (2KG)",
+      "250 GM (6KG)",
+      "500 GM (6KG)",
+      "500 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shoku.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHOKU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Shoku.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 62262
+  },
+  {
+    "id": "6aecc06bbd47393e3197c584",
+    "slug": "iffco-mc-shukaku-1067",
+    "nameEn": "IFFCO-MC SHUKAKU",
+    "nameMr": "इफ्को-एमसी SHUKAKU",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "250 ML",
+      "600 ML",
+      "1500 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shukaku.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHUKAKU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Sakaku-PNG-updated-packshot1.png",
+    "dimensions": [
+      429,
+      800
+    ],
+    "fileSizeBytes": 28208
+  },
+  {
+    "id": "6aecc06bbd47393e3197c639",
+    "slug": "iffco-mc-sodatsu-1095",
+    "nameEn": "IFFCO-MC SODATSU",
+    "nameMr": "इफ्को-एमसी SODATSU",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "300 GM",
+      "600 GM (6KG)",
+      "1200 GM (6KG)"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-sodatsu.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SODATSU",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Sodatsu.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 41958
+  },
+  {
+    "id": "6aecc06bbd47393e3197c621",
+    "slug": "iffco-mc-sukoyaka-1092",
+    "nameEn": "IFFCO-MC SUKOYAKA",
+    "nameMr": "इफ्को-एमसी SUKOYAKA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "50 ML (2.5LTR)",
+      "100 ML (2.5LTR)",
+      "250 ML (5LTR)",
+      "500 ML (5LTR)",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-sukoyaka.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SUKOYAKA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Sukoyaka.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 47184
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5dd",
+    "slug": "iffco-mc-suruga-1082",
+    "nameEn": "IFFCO-MC SURUGA",
+    "nameMr": "इफ्को-एमसी SURUGA",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "120 GM",
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-suruga.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SURUGA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Untitled-design-1.png",
+    "dimensions": [
+      565,
+      800
+    ],
+    "fileSizeBytes": 22918
+  },
+  {
+    "id": "6aecc06bbd47393e3197c589",
+    "slug": "iffco-mc-shirushi-ultra-1068",
+    "nameEn": "IFFCO-MC Shirushi Ultra",
+    "nameMr": "इफ्को-एमसी Shirushi Ultra",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "1000 ML",
+      "400 ML",
+      "200 ML",
+      "100 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-shirushi-ultra.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: SHIRUSHI ULTRA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Shirushi-Ultra.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 36370
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5e9",
+    "slug": "iffco-mc-taiyo-1085",
+    "nameEn": "IFFCO-MC TAIYO",
+    "nameMr": "इफ्को-एमसी TAIYO",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "5 GM (1KG)",
+      "100 GM",
+      "250 GM",
+      "500 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-taiyo.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: TAIYO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Taiyo.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 46364
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5ef",
+    "slug": "iffco-mc-taiyo-plus-1085",
+    "nameEn": "IFFCO-MC TAIYO PLUS",
+    "nameMr": "इफ्को-एमसी TAIYO PLUS",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "50 ML",
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-taiyo-plus.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: TAIYO PLUS",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Taiyo-Plus.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 33466
+  },
+  {
+    "id": "6aecc06bbd47393e3197c60b",
+    "slug": "iffco-mc-tajima-1089",
+    "nameEn": "IFFCO-MC TAJIMA",
+    "nameMr": "इफ्को-एमसी TAJIMA",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-tajima.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: TAJIMA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Tajima-Packshot-scaled.png",
+    "dimensions": [
+      600,
+      800
+    ],
+    "fileSizeBytes": 34688
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5e3",
+    "slug": "iffco-mc-takibi-1084",
+    "nameEn": "IFFCO-MC TAKIBI",
+    "nameMr": "इफ्को-एमसी TAKIBI",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "25GM (2KG)",
+      "100GM (3KG)",
+      "250GM (4KG)",
+      "500GM (4KG)"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-takibi.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: TAKIBI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Takibi.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 43816
+  },
+  {
+    "id": "6aecc06bbd47393e3197c669",
+    "slug": "iffco-mc-tamago-1106",
+    "nameEn": "IFFCO-MC TAMAGO",
+    "nameMr": "इफ्को-एमसी TAMAGO",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "250 GM",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-tamago.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: TAMAGO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Tamago.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 58804
+  },
+  {
+    "id": "6aecc06bbd47393e3197c552",
+    "slug": "iffco-mc-tanoshi-1054",
+    "nameEn": "IFFCO-MC TANOSHI",
+    "nameMr": "इफ्को-एमसी TANOSHI",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "100 GM",
+      "250 GM",
+      "500 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-tanoshi.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: TANOSHI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Tanoshi.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 63230
+  },
+  {
+    "id": "6aecc06bbd47393e3197c654",
+    "slug": "iffco-mc-tebura-1099",
+    "nameEn": "IFFCO-MC TEBURA",
+    "nameMr": "इफ्को-एमसी TEBURA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-tebura.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: TEBURA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Tebura.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 45088
+  },
+  {
+    "id": "6aecc06bbd47393e3197c672",
+    "slug": "iffco-mc-uchiwa-1109",
+    "nameEn": "IFFCO-MC UCHIWA",
+    "nameMr": "इफ्को-एमसी UCHIWA",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "1000 GM",
+      "500 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-uchiwa.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: UCHIWA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Uchiwa-Packshot-scaled.png",
+    "dimensions": [
+      435,
+      800
+    ],
+    "fileSizeBytes": 40210
+  },
+  {
+    "id": "6aecc06bbd47393e3197c628",
+    "slug": "iffco-mc-yamato-1093",
+    "nameEn": "IFFCO-MC YAMATO",
+    "nameMr": "इफ्को-एमसी YAMATO",
+    "brand": "IFFCO-MC",
+    "category": "Fungicides",
+    "packSizes": [
+      "100 GM (5KG)",
+      "250 GM (5KG)",
+      "500 GM",
+      "1000 GM"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-yamato.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: YAMATO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Yamato.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 55214
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5f6",
+    "slug": "iffco-mc-yujo-1086",
+    "nameEn": "IFFCO-MC YUJO",
+    "nameMr": "इफ्को-एमसी YUJO",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 ML (5 LTR)",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-yujo.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: YUJO",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Yujo.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 41624
+  },
+  {
+    "id": "6aecc06bbd47393e3197c698",
+    "slug": "iffco-mc-yukari-1114",
+    "nameEn": "IFFCO-MC YUKARI",
+    "nameMr": "इफ्को-एमसी YUKARI",
+    "brand": "IFFCO-MC",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-yukari.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: YUKARI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Yukari-PNG.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 38882
+  },
+  {
+    "id": "6aecc06bbd47393e3197c5fc",
+    "slug": "iffco-mc-yuri-1087",
+    "nameEn": "IFFCO-MC YURI",
+    "nameMr": "इफ्को-एमसी YURI",
+    "brand": "IFFCO-MC",
+    "category": "Insecticides",
+    "packSizes": [
+      "100 ML",
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-yuri.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: YURI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Yuri.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 38346
+  },
+  {
+    "id": "6aecc06bbd47393e3197c567",
+    "slug": "iffco-mc-yutori-1062",
+    "nameEn": "IFFCO-MC Yutori",
+    "nameMr": "इफ्को-एमसी Yutori",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "57.5 ml",
+      "115 ml",
+      "230 ml"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-yutori.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: YUTORI",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Yutori.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 75060
+  },
+  {
+    "id": "6aecc06bbd47393e3197c55d",
+    "slug": "iffco-mc-zakiyama-1056",
+    "nameEn": "IFFCO-MC ZAKIYAMA",
+    "nameMr": "इफ्को-एमसी ZAKIYAMA",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "250 ML",
+      "500 ML",
+      "1000 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-zakiyama.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: ZAKIYAMA",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Zakiyama.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 43012
+  },
+  {
+    "id": "6aecc06bbd47393e3197c562",
+    "slug": "iffco-mc-zakiyama-plus-1061",
+    "nameEn": "IFFCO-MC ZAKIYAMA PLUS",
+    "nameMr": "इफ्को-एमसी ZAKIYAMA PLUS",
+    "brand": "IFFCO-MC",
+    "category": "Herbicides",
+    "packSizes": [
+      "350 ML",
+      "700 ML",
+      "3500 ML"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/iffco-mc-zakiyama-plus.webp",
+    "source": "Official IFFCO-MC Crop Science Ltd Portal (iffcomc.in)",
+    "attribution": "IFFCO-MC Crop Science Private Limited",
+    "notes": "Official pack shot from IFFCO-MC CMS: ZAKIYAMA PLUS",
+    "remoteUrl": "https://iffcomc.in/Iffcomcbackend/wp-content/uploads/2025/08/Zakiyama-Plus.png",
+    "dimensions": [
+      800,
+      800
+    ],
+    "fileSizeBytes": 35138
+  },
+  {
+    "id": "6ae60938c8bd42e4d54310b0",
+    "slug": "mahyco-phule-samarth-onion-seeds",
+    "nameEn": "Mahyco Phule Samarth Onion Seeds (Late Kharif / Rangda)",
+    "nameMr": "फुले समर्थ कांदा बियाणे (रांगडा व उन्हाळी)",
+    "brand": "Mahyco / MPKV Selection",
+    "category": "Seeds",
+    "packSizes": [
+      "500 gm",
+      "1 kg Tin"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Replaced generic Unsplash stock photo with clean agricultural placeholder. Official manufacturer pack shot pending authorization."
+  },
+  {
+    "id": "6ae60938c8bd42e4d54310b4",
+    "slug": "multiplex-kranti-complete-micronutrient",
+    "nameEn": "Multiplex Kranti Complete Micronutrient Foliar Fertilizer",
+    "nameMr": "मल्टिप्लेक्स क्रांती संपूर्ण सूक्ष्मअन्नद्रव्य खत",
+    "brand": "Multiplex Group",
+    "category": "Micronutrients",
+    "packSizes": [
+      "250 ml",
+      "500 ml",
+      "1 Liter",
+      "5 Liter"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Replaced generic Unsplash stock photo with clean agricultural placeholder. Official manufacturer pack shot pending authorization."
+  },
+  {
+    "id": "6aecc303d6542dd540260e15",
+    "slug": "zytonic-active-100ml-5310",
+    "nameEn": "ZYTONIC ACTIVE 100ML",
+    "nameMr": "ZYTONIC ACTIVE 100ML",
+    "brand": "Zytonic",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "100 ml"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-active.webp",
+    "source": "Zydex Industries / KisanShop Official Distributor Catalogue",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "High-resolution 720x720 verified front-facing packaging image of Zydex Zytonic Active",
+    "dimensions": [
+      720,
+      720
+    ],
+    "fileSizeBytes": 20624
+  },
+  {
+    "id": "6aecc303d6542dd540260e17",
+    "slug": "zytonic-active-250ml-5311",
+    "nameEn": "ZYTONIC ACTIVE 250ML",
+    "nameMr": "ZYTONIC ACTIVE 250ML",
+    "brand": "Zytonic",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "250 ml"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-active.webp",
+    "source": "Zydex Industries / KisanShop Official Distributor Catalogue",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "High-resolution 720x720 verified front-facing packaging image of Zydex Zytonic Active",
+    "dimensions": [
+      720,
+      720
+    ],
+    "fileSizeBytes": 20624
+  },
+  {
+    "id": "6aecc303d6542dd540260e19",
+    "slug": "zytonic-active-500ml-5314",
+    "nameEn": "ZYTONIC ACTIVE 500ML",
+    "nameMr": "ZYTONIC ACTIVE 500ML",
+    "brand": "Zytonic",
+    "category": "Plant Growth Promoters",
+    "packSizes": [
+      "500 ml"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-active.webp",
+    "source": "Zydex Industries / KisanShop Official Distributor Catalogue",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "High-resolution 720x720 verified front-facing packaging image of Zydex Zytonic Active",
+    "dimensions": [
+      720,
+      720
+    ],
+    "fileSizeBytes": 20624
+  },
+  {
+    "id": "6aecc303d6542dd540260e1b",
+    "slug": "zytonic-bio-booster-250ml-5315",
+    "nameEn": "ZYTONIC BIO BOOSTER 250ML",
+    "nameMr": "ZYTONIC BIO BOOSTER 250ML",
+    "brand": "Zytonic",
+    "category": "Biofertilizers",
+    "packSizes": [
+      "250 ml"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Pending manufacturer brochure release for exact packaging variant. Clean agricultural fallback displayed."
+  },
+  {
+    "id": "6aecc303d6542dd540260e1d",
+    "slug": "zytonic-bio-booster-500ml-5316",
+    "nameEn": "ZYTONIC BIO BOOSTER 500ML",
+    "nameMr": "ZYTONIC BIO BOOSTER 500ML",
+    "brand": "Zytonic",
+    "category": "Biofertilizers",
+    "packSizes": [
+      "500 ml"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Pending manufacturer brochure release for exact packaging variant. Clean agricultural fallback displayed."
+  },
+  {
+    "id": "6aecc303d6542dd540260e1f",
+    "slug": "zytonic-bioactive-250gm-5316",
+    "nameEn": "ZYTONIC BIOACTIVE 250GM",
+    "nameMr": "ZYTONIC BIOACTIVE 250GM",
+    "brand": "Zytonic",
+    "category": "Biofertilizers",
+    "packSizes": [
+      "250 gm"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Pending manufacturer brochure release for exact packaging variant. Clean agricultural fallback displayed."
+  },
+  {
+    "id": "6aecc303d6542dd540260e21",
+    "slug": "zytonic-biopest-drip-kit-100ml-x-4nos-5317",
+    "nameEn": "ZYTONIC BIOPEST DRIP KIT 100ML X 4NOS",
+    "nameMr": "ZYTONIC BIOPEST DRIP KIT 100ML X 4NOS",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "100 ml x 4 nos"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Pending manufacturer brochure release for exact packaging variant. Clean agricultural fallback displayed."
+  },
+  {
+    "id": "6aecc303d6542dd540260e23",
+    "slug": "zytonic-biopest-soil-kit-100ml-x-4nos-5318",
+    "nameEn": "ZYTONIC BIOPEST SOIL KIT 100ML X 4NOS",
+    "nameMr": "ZYTONIC BIOPEST SOIL KIT 100ML X 4NOS",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "100 ml x 4 nos"
+    ],
+    "status": "pending",
+    "verified": false,
+    "imageUrl": "",
+    "source": "",
+    "attribution": "",
+    "notes": "Pending manufacturer brochure release for exact packaging variant. Clean agricultural fallback displayed."
+  },
+  {
+    "id": "6aecc303d6542dd540260e25",
+    "slug": "zytonic-godhan-15kg-5319",
+    "nameEn": "ZYTONIC GODHAN 15KG",
+    "nameMr": "ZYTONIC GODHAN 15KG",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "15 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-godhan.webp",
+    "source": "Zydex Group Official Zytonic Godhan Technical Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      232,
+      301
+    ],
+    "fileSizeBytes": 13006
+  },
+  {
+    "id": "6aecc303d6542dd540260e27",
+    "slug": "zytonic-godhan-2kg-5320",
+    "nameEn": "ZYTONIC GODHAN 2KG",
+    "nameMr": "ZYTONIC GODHAN 2KG",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "2 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-godhan.webp",
+    "source": "Zydex Group Official Zytonic Godhan Technical Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      232,
+      301
+    ],
+    "fileSizeBytes": 13006
+  },
+  {
+    "id": "6aecc303d6542dd540260e29",
+    "slug": "zytonic-k-2kg-5321",
+    "nameEn": "ZYTONIC K 2KG",
+    "nameMr": "ZYTONIC K 2KG",
+    "brand": "Zytonic",
+    "category": "Biofertilizers",
+    "packSizes": [
+      "2 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-k.webp",
+    "source": "Zydex Group Official Zytonic-K Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      230,
+      354
+    ],
+    "fileSizeBytes": 17926
+  },
+  {
+    "id": "6aecc303d6542dd540260e2b",
+    "slug": "zytonic-mini-kit-8kg-5322",
+    "nameEn": "ZYTONIC MINI KIT 8KG",
+    "nameMr": "ZYTONIC MINI KIT 8KG",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "8 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-mini-kit.webp",
+    "source": "Zydex Group Official Zytonic Mini Kit Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      267,
+      448
+    ],
+    "fileSizeBytes": 19076
+  },
+  {
+    "id": "6aecc303d6542dd540260e2d",
+    "slug": "zytonic-neem-300ppm-250ml-5324",
+    "nameEn": "ZYTONIC NEEM 300PPM 250ML",
+    "nameMr": "ZYTONIC NEEM 300PPM 250ML",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "250 ml"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-neem.webp",
+    "source": "Zydex Group Official Zytonic Neem Natural Crop Protector Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      227,
+      401
+    ],
+    "fileSizeBytes": 14860
+  },
+  {
+    "id": "6aecc303d6542dd540260e2f",
+    "slug": "zytonic-neem-300ppm-500ml-5325",
+    "nameEn": "ZYTONIC NEEM 300PPM 500ML",
+    "nameMr": "ZYTONIC NEEM 300PPM 500ML",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "500 ml"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-neem.webp",
+    "source": "Zydex Group Official Zytonic Neem Natural Crop Protector Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      227,
+      401
+    ],
+    "fileSizeBytes": 14860
+  },
+  {
+    "id": "6aecc303d6542dd540260e31",
+    "slug": "zytonic-npk-2kg-5325",
+    "nameEn": "ZYTONIC NPK 2KG",
+    "nameMr": "ZYTONIC NPK 2KG",
+    "brand": "Zytonic",
+    "category": "Biofertilizers",
+    "packSizes": [
+      "2 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-npk.webp",
+    "source": "Zydex Group Official Zytonic NPK Biofertilizer Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      341,
+      443
+    ],
+    "fileSizeBytes": 23684
+  },
+  {
+    "id": "6aecc303d6542dd540260e33",
+    "slug": "zytonic-nursery-kit-2kg-5326",
+    "nameEn": "ZYTONIC NURSERY KIT 2KG",
+    "nameMr": "ZYTONIC NURSERY KIT 2KG",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "2 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-nursery-kit.webp",
+    "source": "Zydex Group Official Zytonic Nursery Kit Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      267,
+      448
+    ],
+    "fileSizeBytes": 21246
+  },
+  {
+    "id": "6aecc303d6542dd540260e35",
+    "slug": "zytonic-suraksha-250gm-5326",
+    "nameEn": "ZYTONIC SURAKSHA 250GM",
+    "nameMr": "ZYTONIC SURAKSHA 250GM",
+    "brand": "Zytonic",
+    "category": "Organic Inputs",
+    "packSizes": [
+      "250 gm"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-suraksha.webp",
+    "source": "Zydex Group Official Zytonic Suraksha Foliar Biofertilizer Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      279,
+      395
+    ],
+    "fileSizeBytes": 19166
+  },
+  {
+    "id": "6aecc303d6542dd540260e37",
+    "slug": "zytonic-zinc-2kg-5326",
+    "nameEn": "ZYTONIC ZINC 2KG",
+    "nameMr": "ZYTONIC ZINC 2KG",
+    "brand": "Zytonic",
+    "category": "Micronutrients",
+    "packSizes": [
+      "2 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-zinc.webp",
+    "source": "Zydex Industries / Authorized Distributor Catalogue",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "High-resolution 500x500 verified front-facing packaging image of Zydex Zytonic Zinc Biofertilizer",
+    "dimensions": [
+      500,
+      500
+    ],
+    "fileSizeBytes": 25752
+  },
+  {
+    "id": "6aecc303d6542dd540260e13",
+    "slug": "zytonic-m-2kg-5288",
+    "nameEn": "ZYTONIC-M 2KG",
+    "nameMr": "ZYTONIC-M 2KG",
+    "brand": "Zytonic",
+    "category": "Biofertilizers",
+    "packSizes": [
+      "2 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-m.webp",
+    "source": "Zydex Group Official Zytonic-M Technical Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      427,
+      410
+    ],
+    "fileSizeBytes": 27710
+  },
+  {
+    "id": "6aecc303d6542dd540260e39",
+    "slug": "zytonic-m-5kg-5327",
+    "nameEn": "ZYTONIC-M 5KG",
+    "nameMr": "ZYTONIC-M 5KG",
+    "brand": "Zytonic",
+    "category": "Biofertilizers",
+    "packSizes": [
+      "5 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-m.webp",
+    "source": "Zydex Group Official Zytonic-M Technical Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      427,
+      410
+    ],
+    "fileSizeBytes": 27710
+  },
+  {
+    "id": "6aecc303d6542dd540260e3b",
+    "slug": "zytonic-m-15kg-5327",
+    "nameEn": "ZYTONIC-M-15KG",
+    "nameMr": "ZYTONIC-M-15KG",
+    "brand": "Zytonic",
+    "category": "Biofertilizers",
+    "packSizes": [
+      "15 kg"
+    ],
+    "status": "verified",
+    "verified": true,
+    "imageUrl": "/images/products/zytonic-m.webp",
+    "source": "Zydex Group Official Zytonic-M Technical Brochure",
+    "attribution": "Zydex Industries (Agriculture Division)",
+    "notes": "Authentic packaging pack shot extracted from official Zydex Industries (Agriculture Division) brochure",
+    "dimensions": [
+      427,
+      410
+    ],
+    "fileSizeBytes": 27710
+  }
+]

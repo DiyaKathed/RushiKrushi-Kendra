@@ -33,6 +33,7 @@ logs/
 # Local databases & embedded storage
 server/data/
 server/data/embedded-db/
+server/src/data/backups/
 
 # Uploaded user media (preserve .gitkeep so directory structure remains)
 server/uploads/*

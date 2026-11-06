@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
@@ -8,7 +8,9 @@ import {
   ShieldCheck,
   ShoppingBag,
   Sparkles,
-  PhoneCall
+  PhoneCall,
+  Building2,
+  Tag
 } from 'lucide-react';
 import { getProducts, extractProducts } from '../services/api';
 import ProductCard from '../components/ProductCard';
@@ -41,11 +43,34 @@ const ProductsPage = () => {
   // Filters state
   const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
   const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'All');
-  const [selectedBrand, setSelectedBrand] = useState('All');
+  const [selectedBrand, setSelectedBrand] = useState(searchParams.get('brand') || searchParams.get('company') || 'All');
   const [inStockOnly, setInStockOnly] = useState(false);
 
-  // Available brands in the catalogue
-  const [availableBrands, setAvailableBrands] = useState([]);
+  // Available brands in the active catalogue (dynamically populated from API)
+  const [availableBrands, setAvailableBrands] = useState(['IFFCO-MC', 'ZYTONIC']);
+
+  // Generate company filter options dynamically from active catalogue brands returned by the API
+  const allCompanyOptions = useMemo(() => {
+    const list = ['All'];
+    const seen = new Set(['all']);
+
+    if (Array.isArray(availableBrands)) {
+      // Sort alphabetically for a consistent, professional order
+      const sorted = [...availableBrands].filter(Boolean).sort((a, b) => a.localeCompare(b));
+      sorted.forEach((b) => {
+        if (typeof b === 'string') {
+          const trimmed = b.trim();
+          const key = trimmed.toLowerCase();
+          if (trimmed && trimmed !== 'All' && !seen.has(key)) {
+            seen.add(key);
+            list.push(trimmed);
+          }
+        }
+      });
+    }
+
+    return list;
+  }, [availableBrands]);
 
   useEffect(() => {
     // Sync URL query params if present
@@ -53,16 +78,23 @@ const ProductsPage = () => {
     if (catParam) {
       setSelectedCategory(catParam);
     }
+    const brandParam = searchParams.get('brand') || searchParams.get('company');
+    if (brandParam) {
+      setSelectedBrand(brandParam);
+    }
   }, [searchParams]);
 
   useEffect(() => {
     const fetchCatalog = async () => {
       setLoading(true);
       try {
-        const params = {};
+        const params = { limit: 200 };
         if (searchTerm.trim() !== '') params.search = searchTerm.trim();
         if (selectedCategory !== 'All') params.category = selectedCategory;
-        if (selectedBrand !== 'All') params.brand = selectedBrand;
+        if (selectedBrand !== 'All') {
+          params.brand = selectedBrand;
+          params.company = selectedBrand;
+        }
         if (inStockOnly) params.availability = 'in_stock';
 
         const res = await getProducts(params);
@@ -70,7 +102,7 @@ const ProductsPage = () => {
         setProducts(items);
         setTotal(res.data?.total ?? items.length);
         if (res.data?.brands && Array.isArray(res.data.brands)) {
-          setAvailableBrands(['All', ...res.data.brands]);
+          setAvailableBrands(res.data.brands);
         }
       } catch (err) {
         console.error('Failed to load products:', err);
@@ -89,6 +121,17 @@ const ProductsPage = () => {
       searchParams.delete('category');
     } else {
       searchParams.set('category', cat);
+    }
+    setSearchParams(searchParams);
+  };
+
+  const handleBrandClick = (brand) => {
+    setSelectedBrand(brand);
+    if (brand === 'All') {
+      searchParams.delete('brand');
+      searchParams.delete('company');
+    } else {
+      searchParams.set('brand', brand);
     }
     setSearchParams(searchParams);
   };
@@ -161,15 +204,15 @@ const ProductsPage = () => {
             )}
           </div>
 
-          {/* Brand Filter */}
+          {/* Company / Brand Filter Dropdown */}
           <div className="md:col-span-3">
             <select
               value={selectedBrand}
-              onChange={(e) => setSelectedBrand(e.target.value)}
+              onChange={(e) => handleBrandClick(e.target.value)}
               className="w-full px-3 py-2 rounded-md border border-[#D7E1D1] text-sm focus:outline-hidden focus:ring-1 focus:ring-[#245C2A]"
             >
-              <option value="All">{t('products.allBrands')}</option>
-              {availableBrands.filter(b => b !== 'All').map((brand) => (
+              <option value="All">{currentLang === 'mr' ? 'सर्व कंपन्या / ब्रँड्स' : 'All Companies / Brands'}</option>
+              {allCompanyOptions.filter(b => b !== 'All').map((brand) => (
                 <option key={brand} value={brand}>{brand}</option>
               ))}
             </select>
@@ -199,8 +242,41 @@ const ProductsPage = () => {
           </div>
         </div>
 
-        {/* Category Pills Slider / Wrap */}
+        {/* Company / Brand Pills Slider */}
         <div className="pt-2 border-t border-[#D7E1D1] flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+          <span className="text-xs font-bold text-[#5D685B] shrink-0 flex items-center gap-1 mr-1">
+            <Building2 className="w-3.5 h-3.5 text-[#245C2A]" />
+            <span>{currentLang === 'mr' ? 'कंपनी / ब्रँड:' : 'Company / Brand:'}</span>
+          </span>
+          {allCompanyOptions.map((brand) => {
+            const isSelected = selectedBrand.toLowerCase() === brand.toLowerCase();
+            const label = brand === 'All'
+              ? (currentLang === 'mr' ? 'सर्व कंपन्या (All)' : 'All Companies')
+              : brand;
+
+            return (
+              <button
+                key={brand}
+                type="button"
+                onClick={() => handleBrandClick(brand)}
+                className={`px-3 py-1.5 rounded-sm text-xs font-bold whitespace-nowrap transition border ${
+                  isSelected
+                    ? 'bg-[#245C2A] text-white border-[#1C4920] shadow-xs'
+                    : 'bg-[#FAF8F0] text-[#263328] border-[#D7E1D1] hover:bg-[#EAF2E3]'
+                }`}
+              >
+                {label}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Category Pills Slider */}
+        <div className="pt-2 border-t border-[#D7E1D1] flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+          <span className="text-xs font-bold text-[#5D685B] shrink-0 flex items-center gap-1 mr-1">
+            <Tag className="w-3.5 h-3.5 text-[#438A35]" />
+            <span>{currentLang === 'mr' ? 'प्रवर्ग:' : 'Category:'}</span>
+          </span>
           {CATEGORIES_LIST.map((category) => {
             const isSelected = selectedCategory === category;
             const categoryLabel = category === 'All'
@@ -226,16 +302,25 @@ const ProductsPage = () => {
       </div>
 
       {/* Results Header */}
-      <div className="flex items-center justify-between text-xs sm:text-sm text-stone-600">
-        <span>
-          {currentLang === 'mr' ? 'एकूण उत्पादने: ' : 'Showing products: '}
-          <strong className="text-stone-900 font-bold">{products.length}</strong>
-        </span>
-        {selectedCategory !== 'All' && (
-          <span className="font-semibold text-agro-forest">
-            {t(`products.categories.${selectedCategory}`) || selectedCategory}
+      <div className="flex flex-wrap items-center justify-between gap-2 text-xs sm:text-sm text-stone-600">
+        <div className="flex items-center gap-2 flex-wrap">
+          <span>
+            {currentLang === 'mr' ? 'एकूण उत्पादने: ' : 'Showing products: '}
+            <strong className="text-stone-900 font-bold">{products.length}</strong>
           </span>
-        )}
+          {selectedBrand !== 'All' && (
+            <span className="inline-flex items-center gap-1 font-semibold text-[#245C2A] bg-[#EAF2E3] px-2 py-0.5 rounded border border-[#B8D5B0] text-xs">
+              <Building2 className="w-3 h-3 text-[#438A35]" />
+              <span>{selectedBrand}</span>
+            </span>
+          )}
+          {selectedCategory !== 'All' && (
+            <span className="inline-flex items-center gap-1 font-semibold text-agro-forest bg-[#FAF8F0] px-2 py-0.5 rounded border border-[#D7E1D1] text-xs">
+              <Tag className="w-3 h-3 text-[#438A35]" />
+              <span>{t(`products.categories.${selectedCategory}`) || selectedCategory}</span>
+            </span>
+          )}
+        </div>
       </div>
 
       {/* Product Grid */}

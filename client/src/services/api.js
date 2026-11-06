@@ -129,6 +129,8 @@ export const adminGetProducts = (params) => api.get('/products/admin/all', { par
 export const adminCreateProduct = (data) => api.post('/products', data);
 export const adminUpdateProduct = (id, data) => api.put(`/products/${id}`, data);
 export const adminDeleteProduct = (id) => api.delete(`/products/${id}`);
+export const adminArchiveProduct = (id, reason) => api.patch(`/products/${id}/archive`, { reason });
+export const adminRestoreProduct = (id) => api.patch(`/products/${id}/restore`);
 
 // Crops API (Express / MongoDB Atlas single source of truth)
 export const getCrops = (params) => api.get('/crops', { params });

@@ -1,0 +1,3828 @@
+{
+  "metadata": {
+    "company": "IFFCO-MC Crop Science Private Limited",
+    "documentTitle": "Regular Price Price List",
+    "dated": "05/10/2025",
+    "totalProducts": 71,
+    "totalSkus": 242,
+    "sourceFile": "media_1793894918290.pdf"
+  },
+  "products": [
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "ATARI",
+      "nameEn": "IFFCO-MC ATARI",
+      "nameMr": "इफ्को-एमसी ATARI",
+      "category": "Herbicides",
+      "technicalComposition": "Atrazine 50% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 130,
+      "indicativePrice": "₹130 - ₹480",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "250 GM",
+          "mrp": 130,
+          "regularInvoicePrice": 89,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3577
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 250,
+          "regularInvoicePrice": 170,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3395
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 480,
+          "regularInvoicePrice": 321,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3213
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "FURUSATO",
+      "nameEn": "IFFCO-MC FURUSATO",
+      "nameMr": "इफ्को-एमसी FURUSATO",
+      "category": "Herbicides",
+      "technicalComposition": "Oxyflurofen 23.5% SC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML"
+      ],
+      "price": 180,
+      "indicativePrice": "₹180 - ₹800",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 180,
+          "regularInvoicePrice": 109,
+          "packInCarton": 20,
+          "cartonWeightKg": 2.0,
+          "cartonBillingPrice": 2187
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 410,
+          "regularInvoicePrice": 239,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 4771
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 800,
+          "regularInvoicePrice": 460,
+          "packInCarton": 10,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 4596
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "GENKI",
+      "nameEn": "IFFCO-MC GENKI",
+      "nameMr": "इफ्को-एमसी GENKI",
+      "category": "Herbicides",
+      "technicalComposition": "Glyphosate 41% SL",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "500 ML",
+        "1000 ML",
+        "5000 ML",
+        "20000 ML"
+      ],
+      "price": 400,
+      "indicativePrice": "₹400 - ₹15200",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "500 ML",
+          "mrp": 400,
+          "regularInvoicePrice": 175,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3496
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 780,
+          "regularInvoicePrice": 331,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3315
+        },
+        {
+          "packSize": "5000 ML",
+          "mrp": 3850,
+          "regularInvoicePrice": 1612,
+          "packInCarton": 2,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3224
+        },
+        {
+          "packSize": "20000 ML",
+          "mrp": 15200,
+          "regularInvoicePrice": 6266,
+          "packInCarton": 1,
+          "cartonWeightKg": 20.0,
+          "cartonBillingPrice": 6266
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "GENKI PLUS",
+      "nameEn": "IFFCO-MC GENKI PLUS",
+      "nameMr": "इफ्को-एमसी GENKI PLUS",
+      "category": "Herbicides",
+      "technicalComposition": "Glyphosate 71% SG",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM",
+        "500 GM"
+      ],
+      "price": 140,
+      "indicativePrice": "₹140 - ₹650",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "100 GM",
+          "mrp": 140,
+          "regularInvoicePrice": 60,
+          "packInCarton": 40,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 2392
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 650,
+          "regularInvoicePrice": 270,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5404
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "ICHIGO",
+      "nameEn": "IFFCO-MC ICHIGO",
+      "nameMr": "इफ्को-एमसी ICHIGO",
+      "category": "Herbicides",
+      "technicalComposition": "Imazethapyr 10 % SL",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 320,
+      "indicativePrice": "₹320 - ₹1150",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 320,
+          "regularInvoicePrice": 208,
+          "packInCarton": 16,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 3331
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 600,
+          "regularInvoicePrice": 382,
+          "packInCarton": 8,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 3053
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1150,
+          "regularInvoicePrice": 720,
+          "packInCarton": 4,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 2879
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KABUTO",
+      "nameEn": "IFFCO-MC KABUTO",
+      "nameMr": "इफ्को-एमसी KABUTO",
+      "category": "Herbicides",
+      "technicalComposition": "Paraquat Dichloride 24% SL",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML",
+        "5000 ML"
+      ],
+      "price": 130,
+      "indicativePrice": "₹130 - ₹2150",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 130,
+          "regularInvoicePrice": 87,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3488
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 240,
+          "regularInvoicePrice": 156,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3125
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 450,
+          "regularInvoicePrice": 285,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 2852
+        },
+        {
+          "packSize": "5000 ML",
+          "mrp": 2150,
+          "regularInvoicePrice": 1335,
+          "packInCarton": 2,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 2670
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "MAKOTO",
+      "nameEn": "IFFCO-MC MAKOTO",
+      "nameMr": "इफ्को-एमसी MAKOTO",
+      "category": "Herbicides",
+      "technicalComposition": "Metsulfuron Methyl 20% W.P",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "8 GM"
+      ],
+      "price": 100,
+      "indicativePrice": "₹100",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "pages": [1, 3],
+        "sourceCategories": ["Herbicides", "Insecticides"],
+        "traceabilityNote": "MAKOTO 8 GM was listed twice in the original 05/10/2025 PDF: Page 1 under Herbicides and Page 3 under Insecticides. Verified that technical composition (Metsulfuron Methyl 20% W.P), pack size (8 GM), MRP (₹100), and regular invoice price (₹70) genuinely match. Retained canonical category as Herbicides based on agrochemical pharmacology, while preserving both original category references for complete traceability."
+      },
+      "skus": [
+        {
+          "packSize": "8 GM",
+          "mrp": 100,
+          "regularInvoicePrice": 70,
+          "packInCarton": 50,
+          "cartonWeightKg": 0.0,
+          "cartonBillingPrice": 3522,
+          "sourcePage": 1,
+          "sourceCategory": "Herbicides"
+        },
+        {
+          "packSize": "8 GM",
+          "mrp": 100,
+          "regularInvoicePrice": 70,
+          "packInCarton": 50,
+          "cartonWeightKg": 0.0,
+          "cartonBillingPrice": 3522,
+          "sourcePage": 3,
+          "sourceCategory": "Insecticides"
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KOKORO",
+      "nameEn": "IFFCO-MC KOKORO",
+      "nameMr": "इफ्को-एमसी KOKORO",
+      "category": "Herbicides",
+      "technicalComposition": "Clodinofop Propargyl 15% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "160 GM"
+      ],
+      "price": 320,
+      "indicativePrice": "₹320",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "160 GM",
+          "mrp": 320,
+          "regularInvoicePrice": 170,
+          "packInCarton": 25,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 4254
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "OJIKA",
+      "nameEn": "IFFCO-MC OJIKA",
+      "nameMr": "इफ्को-एमसी OJIKA",
+      "category": "Herbicides",
+      "technicalComposition": "Pyrazosulfuron 10% WG",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "20 GM",
+        "80 GM"
+      ],
+      "price": 50,
+      "indicativePrice": "₹50 - ₹170",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "20 GM",
+          "mrp": 50,
+          "regularInvoicePrice": 22,
+          "packInCarton": 200,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 4447
+        },
+        {
+          "packSize": "80 GM",
+          "mrp": 170,
+          "regularInvoicePrice": 98,
+          "packInCarton": 100,
+          "cartonWeightKg": 8.0,
+          "cartonBillingPrice": 9827
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "RYUSEI",
+      "nameEn": "IFFCO-MC RYUSEI",
+      "nameMr": "इफ्को-एमसी RYUSEI",
+      "category": "Herbicides",
+      "technicalComposition": "Metribuzin 70% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 160,
+      "indicativePrice": "₹160 - ₹1200",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 160,
+          "regularInvoicePrice": 110,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 5481
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 310,
+          "regularInvoicePrice": 211,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 8423
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 610,
+          "regularInvoicePrice": 412,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 8248
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1200,
+          "regularInvoicePrice": 807,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 8075
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "TANOSHI",
+      "nameEn": "IFFCO-MC TANOSHI",
+      "nameMr": "इफ्को-एमसी TANOSHI",
+      "category": "Herbicides",
+      "technicalComposition": "Haloxyfop Methyl 10.5% EC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM",
+        "250 GM",
+        "500 GM"
+      ],
+      "price": 180,
+      "indicativePrice": "₹180 - ₹850",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "100 GM",
+          "mrp": 180,
+          "regularInvoicePrice": 116,
+          "packInCarton": 60,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 6986
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 440,
+          "regularInvoicePrice": 282,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 11280
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 850,
+          "regularInvoicePrice": 537,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10734
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "NOBIRU",
+      "nameEn": "IFFCO-MC NOBIRU",
+      "nameMr": "इफ्को-एमसी NOBIRU",
+      "category": "Herbicides",
+      "technicalComposition": "Pendimethalin 30% EC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML",
+        "5000 ML"
+      ],
+      "price": 130,
+      "indicativePrice": "₹130 - ₹2150",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 130,
+          "regularInvoicePrice": 84,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3370
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 240,
+          "regularInvoicePrice": 150,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3007
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 470,
+          "regularInvoicePrice": 292,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 2916
+        },
+        {
+          "packSize": "5000 ML",
+          "mrp": 2150,
+          "regularInvoicePrice": 1276,
+          "packInCarton": 2,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 2552
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "ZAKIYAMA",
+      "nameEn": "IFFCO-MC ZAKIYAMA",
+      "nameMr": "इफ्को-एमसी ZAKIYAMA",
+      "category": "Herbicides",
+      "technicalComposition": "Pendimethalin 38.7% CS",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 160,
+      "indicativePrice": "₹160 - ₹600",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 160,
+          "regularInvoicePrice": 98,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3913
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 310,
+          "regularInvoicePrice": 187,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3739
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 600,
+          "regularInvoicePrice": 357,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3566
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "ZAKIYAMA PLUS",
+      "nameEn": "IFFCO-MC ZAKIYAMA PLUS",
+      "nameMr": "इफ्को-एमसी ZAKIYAMA PLUS",
+      "category": "Herbicides",
+      "technicalComposition": "Pendimethalin 38.7% CS",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "350 ML",
+        "700 ML",
+        "3500 ML"
+      ],
+      "price": 250,
+      "indicativePrice": "₹250 - ₹2250",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "350 ML",
+          "mrp": 250,
+          "regularInvoicePrice": 200,
+          "packInCarton": 20,
+          "cartonWeightKg": 7.0,
+          "cartonBillingPrice": 3994
+        },
+        {
+          "packSize": "700 ML",
+          "mrp": 470,
+          "regularInvoicePrice": 373,
+          "packInCarton": 10,
+          "cartonWeightKg": 7.0,
+          "cartonBillingPrice": 3734
+        },
+        {
+          "packSize": "3500 ML",
+          "mrp": 2250,
+          "regularInvoicePrice": 1779,
+          "packInCarton": 2,
+          "cartonWeightKg": 7.0,
+          "cartonBillingPrice": 3559
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "Yutori",
+      "nameEn": "IFFCO-MC Yutori",
+      "nameMr": "इफ्को-एमसी Yutori",
+      "category": "Herbicides",
+      "technicalComposition": "Tembotrione 34.4% SC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "57.5 ml",
+        "115 ml",
+        "230 ml"
+      ],
+      "price": 800,
+      "indicativePrice": "₹800 - ₹2950",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "57.5 ml",
+          "mrp": 800,
+          "regularInvoicePrice": 401,
+          "packInCarton": 20,
+          "cartonWeightKg": 1.0,
+          "cartonBillingPrice": 8013
+        },
+        {
+          "packSize": "115 ml",
+          "mrp": 1530,
+          "regularInvoicePrice": 819,
+          "packInCarton": 12,
+          "cartonWeightKg": 1.0,
+          "cartonBillingPrice": 9829
+        },
+        {
+          "packSize": "230 ml",
+          "mrp": 2950,
+          "regularInvoicePrice": 1542,
+          "packInCarton": 6,
+          "cartonWeightKg": 1.0,
+          "cartonBillingPrice": 9255
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "MONOMI",
+      "nameEn": "IFFCO-MC MONOMI",
+      "nameMr": "इफ्को-एमसी MONOMI",
+      "category": "Herbicides",
+      "technicalComposition": "Pyroxasulfone 85% WG",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "60 GM"
+      ],
+      "price": 1100,
+      "indicativePrice": "₹1100",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "60 GM",
+          "mrp": 1100,
+          "regularInvoicePrice": 957,
+          "packInCarton": 25,
+          "cartonWeightKg": 1.5,
+          "cartonBillingPrice": 23925
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "ENOSHIMA",
+      "nameEn": "IFFCO-MC ENOSHIMA",
+      "nameMr": "इफ्को-एमसी ENOSHIMA",
+      "category": "Herbicides",
+      "technicalComposition": "2,4 - D Amine Salt 58% SL",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "1200 ML",
+        "400 ML",
+        "200 ML"
+      ],
+      "price": 400,
+      "indicativePrice": "₹400 - ₹2000",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 1
+      },
+      "skus": [
+        {
+          "packSize": "1200 ML",
+          "mrp": 2000,
+          "regularInvoicePrice": 1818,
+          "packInCarton": 10,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 18181
+        },
+        {
+          "packSize": "400 ML",
+          "mrp": 700,
+          "regularInvoicePrice": 636,
+          "packInCarton": 30,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 19091
+        },
+        {
+          "packSize": "200 ML",
+          "mrp": 400,
+          "regularInvoicePrice": 364,
+          "packInCarton": 60,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 21818
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "DANGO",
+      "nameEn": "IFFCO-MC DANGO",
+      "nameMr": "इफ्को-एमसी DANGO",
+      "category": "Herbicides",
+      "technicalComposition": "Glufosinate Ammonium 13.5% SL",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML",
+        "5000 ML"
+      ],
+      "price": 190,
+      "indicativePrice": "₹190 - ₹3500",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 190,
+          "regularInvoicePrice": 126,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5046
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 360,
+          "regularInvoicePrice": 235,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4698
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 700,
+          "regularInvoicePrice": 452,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4523
+        },
+        {
+          "packSize": "5000 ML",
+          "mrp": 3500,
+          "regularInvoicePrice": 2261,
+          "packInCarton": 2,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4523
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SAGAMI",
+      "nameEn": "IFFCO-MC SAGAMI",
+      "nameMr": "इफ्को-एमसी SAGAMI",
+      "category": "Herbicides",
+      "technicalComposition": "TOPRAMEZONE 33.6% SL",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "15 ML",
+        "30 ML"
+      ],
+      "price": 875,
+      "indicativePrice": "₹875 - ₹1650",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "15 ML",
+          "mrp": 875,
+          "regularInvoicePrice": 648,
+          "packInCarton": 40,
+          "cartonWeightKg": 0.6,
+          "cartonBillingPrice": 25919
+        },
+        {
+          "packSize": "30 ML",
+          "mrp": 1650,
+          "regularInvoicePrice": 1205,
+          "packInCarton": 20,
+          "cartonWeightKg": 0.6,
+          "cartonBillingPrice": 24100
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "ATARASHI",
+      "nameEn": "IFFCO-MC ATARASHI",
+      "nameMr": "इफ्को-एमसी ATARASHI",
+      "category": "Herbicides",
+      "technicalComposition": "Mesotrione 2.27%+ Atrazine 22.7% SC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "350 ML",
+        "700 ML",
+        "1400 ML",
+        "3500 ML"
+      ],
+      "price": 450,
+      "indicativePrice": "₹450 - ₹4360",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "350 ML",
+          "mrp": 450,
+          "regularInvoicePrice": 391,
+          "packInCarton": 20,
+          "cartonWeightKg": 7.0,
+          "cartonBillingPrice": 7820
+        },
+        {
+          "packSize": "700 ML",
+          "mrp": 880,
+          "regularInvoicePrice": 678,
+          "packInCarton": 10,
+          "cartonWeightKg": 7.0,
+          "cartonBillingPrice": 6784
+        },
+        {
+          "packSize": "1400 ML",
+          "mrp": 1750,
+          "regularInvoicePrice": 1349,
+          "packInCarton": 6,
+          "cartonWeightKg": 8.4,
+          "cartonBillingPrice": 8092
+        },
+        {
+          "packSize": "3500 ML",
+          "mrp": 4360,
+          "regularInvoicePrice": 3357,
+          "packInCarton": 2,
+          "cartonWeightKg": 7.0,
+          "cartonBillingPrice": 6714
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SHUKAKU",
+      "nameEn": "IFFCO-MC SHUKAKU",
+      "nameMr": "इफ्को-एमसी SHUKAKU",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "600 ML",
+        "1500 ML"
+      ],
+      "price": 335,
+      "indicativePrice": "₹335 - ₹1775",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 335,
+          "regularInvoicePrice": 305,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 12182
+        },
+        {
+          "packSize": "600 ML",
+          "mrp": 750,
+          "regularInvoicePrice": 682,
+          "packInCarton": 20,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 13636
+        },
+        {
+          "packSize": "1500 ML",
+          "mrp": 1775,
+          "regularInvoicePrice": 1614,
+          "packInCarton": 6,
+          "cartonWeightKg": 9.0,
+          "cartonBillingPrice": 9682
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "Shirushi Ultra",
+      "nameEn": "IFFCO-MC Shirushi Ultra",
+      "nameMr": "इफ्को-एमसी Shirushi Ultra",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "1000 ML",
+        "400 ML",
+        "200 ML",
+        "100 ML"
+      ],
+      "price": 499,
+      "indicativePrice": "₹499 - ₹3750",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "1000 ML",
+          "mrp": 3750,
+          "regularInvoicePrice": 1786,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 17858
+        },
+        {
+          "packSize": "400 ML",
+          "mrp": 1572,
+          "regularInvoicePrice": 777,
+          "packInCarton": 25,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 19424
+        },
+        {
+          "packSize": "200 ML",
+          "mrp": 870,
+          "regularInvoicePrice": 474,
+          "packInCarton": 50,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 23713
+        },
+        {
+          "packSize": "100 ML",
+          "mrp": 499,
+          "regularInvoicePrice": 282,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 14122
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "EGAO",
+      "nameEn": "IFFCO-MC EGAO",
+      "nameMr": "इफ्को-एमसी EGAO",
+      "category": "Herbicides",
+      "technicalComposition": "Quizalofop ethyl 3 % + Fomesafen 12% SC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "10 GM (1KG)",
+        "50 GM (2KG)",
+        "100 GM",
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 50,
+      "indicativePrice": "₹50 - ₹2600",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "10 GM (1KG)",
+          "mrp": 50,
+          "regularInvoicePrice": 28,
+          "packInCarton": 100,
+          "cartonWeightKg": 1.0,
+          "cartonBillingPrice": 2815
+        },
+        {
+          "packSize": "50 GM (2KG)",
+          "mrp": 150,
+          "regularInvoicePrice": 86,
+          "packInCarton": 40,
+          "cartonWeightKg": 2.0,
+          "cartonBillingPrice": 3448
+        },
+        {
+          "packSize": "100 GM",
+          "mrp": 280,
+          "regularInvoicePrice": 155,
+          "packInCarton": 40,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 6200
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 680,
+          "regularInvoicePrice": 370,
+          "packInCarton": 16,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 5921
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 1320,
+          "regularInvoicePrice": 705,
+          "packInCarton": 8,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 5643
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 2600,
+          "regularInvoicePrice": 1376,
+          "packInCarton": 4,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 5504
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "HAMADA",
+      "nameEn": "IFFCO-MC HAMADA",
+      "nameMr": "इफ्को-एमसी HAMADA",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 265,
+      "indicativePrice": "₹265 - ₹940",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 265,
+          "regularInvoicePrice": 206,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 8243
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 475,
+          "regularInvoicePrice": 364,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7288
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 940,
+          "regularInvoicePrice": 720,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7200
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "HIBIKI",
+      "nameEn": "IFFCO-MC HIBIKI",
+      "nameMr": "इफ्को-एमसी HIBIKI",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 220,
+      "indicativePrice": "₹220 - ₹820",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 220,
+          "regularInvoicePrice": 168,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6738
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 420,
+          "regularInvoicePrice": 319,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6390
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 820,
+          "regularInvoicePrice": 622,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6216
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "HIMAWARI",
+      "nameEn": "IFFCO-MC HIMAWARI",
+      "nameMr": "इफ्को-एमसी HIMAWARI",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML",
+        "5000 ML"
+      ],
+      "price": 100,
+      "indicativePrice": "₹100 - ₹3600",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 100,
+          "regularInvoicePrice": 78,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 3896
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 210,
+          "regularInvoicePrice": 158,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6338
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 400,
+          "regularInvoicePrice": 299,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5974
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 760,
+          "regularInvoicePrice": 561,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5611
+        },
+        {
+          "packSize": "5000 ML",
+          "mrp": 3600,
+          "regularInvoicePrice": 2565,
+          "packInCarton": 2,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5129
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "IRUKA",
+      "nameEn": "IFFCO-MC IRUKA",
+      "nameMr": "इफ्को-एमसी IRUKA",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "80 ML",
+        "200ML",
+        "500ML"
+      ],
+      "price": 170,
+      "indicativePrice": "₹170 - ₹900",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "80 ML",
+          "mrp": 170,
+          "regularInvoicePrice": 112,
+          "packInCarton": 50,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 5622
+        },
+        {
+          "packSize": "200ML",
+          "mrp": 380,
+          "regularInvoicePrice": 236,
+          "packInCarton": 40,
+          "cartonWeightKg": 8.0,
+          "cartonBillingPrice": 9440
+        },
+        {
+          "packSize": "500ML",
+          "mrp": 900,
+          "regularInvoicePrice": 547,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10940
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "ISOGASHI",
+      "nameEn": "IFFCO-MC ISOGASHI",
+      "nameMr": "इफ्को-एमसी ISOGASHI",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 190,
+      "indicativePrice": "₹190 - ₹1700",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 190,
+          "regularInvoicePrice": 121,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 6072
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 450,
+          "regularInvoicePrice": 282,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 11275
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 860,
+          "regularInvoicePrice": 529,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10579
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1700,
+          "regularInvoicePrice": 1041,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10405
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KAITAKU",
+      "nameEn": "IFFCO-MC KAITAKU",
+      "nameMr": "इफ्को-एमसी KAITAKU",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM",
+        "250 GM",
+        "500 GM"
+      ],
+      "price": 140,
+      "indicativePrice": "₹140 - ₹660",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "100 GM",
+          "mrp": 140,
+          "regularInvoicePrice": 104,
+          "packInCarton": 40,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 4162
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 340,
+          "regularInvoicePrice": 251,
+          "packInCarton": 16,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 4023
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 660,
+          "regularInvoicePrice": 574,
+          "packInCarton": 8,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 4592
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KONATSU",
+      "nameEn": "IFFCO-MC KONATSU",
+      "nameMr": "इफ्को-एमसी KONATSU",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "20 ML",
+        "100 ML",
+        "180 ML"
+      ],
+      "price": 300,
+      "indicativePrice": "₹300 - ₹2200",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "20 ML",
+          "mrp": 300,
+          "regularInvoicePrice": 273,
+          "packInCarton": 100,
+          "cartonWeightKg": 2.0,
+          "cartonBillingPrice": 27272
+        },
+        {
+          "packSize": "100 ML",
+          "mrp": 1275,
+          "regularInvoicePrice": 1159,
+          "packInCarton": 30,
+          "cartonWeightKg": 3.0,
+          "cartonBillingPrice": 34772
+        },
+        {
+          "packSize": "180 ML",
+          "mrp": 2200,
+          "regularInvoicePrice": 2000,
+          "packInCarton": 20,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 40000
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "MAINICHI",
+      "nameEn": "IFFCO-MC MAINICHI",
+      "nameMr": "इफ्को-एमसी MAINICHI",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 350,
+      "indicativePrice": "₹350 - ₹1300",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 350,
+          "regularInvoicePrice": 304,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 12174
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 675,
+          "regularInvoicePrice": 587,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 11739
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1300,
+          "regularInvoicePrice": 1130,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 11304
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SENPAI",
+      "nameEn": "IFFCO-MC SENPAI",
+      "nameMr": "इफ्को-एमसी SENPAI",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM",
+        "250 GM",
+        "500 GM"
+      ],
+      "price": 350,
+      "indicativePrice": "₹350 - ₹1500",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 2
+      },
+      "skus": [
+        {
+          "packSize": "100 GM",
+          "mrp": 350,
+          "regularInvoicePrice": 234,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 11677
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 780,
+          "regularInvoicePrice": 501,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 10025
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 1500,
+          "regularInvoicePrice": 950,
+          "packInCarton": 10,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 9504
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SHINZEN",
+      "nameEn": "IFFCO-MC SHINZEN",
+      "nameMr": "इफ्को-एमसी SHINZEN",
+      "category": "Insecticides",
+      "technicalComposition": "Emamectin Benzoate 5 SG",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "1000 GM (25kg)",
+        "5000 GM"
+      ],
+      "price": 90,
+      "indicativePrice": "₹90 - ₹430",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "1000 GM (25kg)",
+          "mrp": 90,
+          "regularInvoicePrice": 71,
+          "packInCarton": 25,
+          "cartonWeightKg": 25.0,
+          "cartonBillingPrice": 1779
+        },
+        {
+          "packSize": "5000 GM",
+          "mrp": 430,
+          "regularInvoicePrice": 338,
+          "packInCarton": 5,
+          "cartonWeightKg": 25.0,
+          "cartonBillingPrice": 1692
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SHINZEN PLUS",
+      "nameEn": "IFFCO-MC SHINZEN PLUS",
+      "nameMr": "इफ्को-एमसी SHINZEN PLUS",
+      "category": "Insecticides",
+      "technicalComposition": "Bifenthrin 10 EC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 130,
+      "indicativePrice": "₹130 - ₹900",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 130,
+          "regularInvoicePrice": 106,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 5298
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 250,
+          "regularInvoicePrice": 200,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7987
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 470,
+          "regularInvoicePrice": 373,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7466
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 900,
+          "regularInvoicePrice": 712,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7118
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SHOKU",
+      "nameEn": "IFFCO-MC SHOKU",
+      "nameMr": "इफ्को-एमसी SHOKU",
+      "category": "Insecticides",
+      "technicalComposition": "Profenophos 40% + Cypermethrin 4% EC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "25 GM (2KG)",
+        "250 GM (6KG)",
+        "500 GM (6KG)",
+        "500 GM"
+      ],
+      "price": 100,
+      "indicativePrice": "₹100 - ₹950",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "25 GM (2KG)",
+          "mrp": 100,
+          "regularInvoicePrice": 81,
+          "packInCarton": 80,
+          "cartonWeightKg": 2.0,
+          "cartonBillingPrice": 6484
+        },
+        {
+          "packSize": "250 GM (6KG)",
+          "mrp": 500,
+          "regularInvoicePrice": 376,
+          "packInCarton": 24,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 9019
+        },
+        {
+          "packSize": "500 GM (6KG)",
+          "mrp": 950,
+          "regularInvoicePrice": 708,
+          "packInCarton": 12,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 8497
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 950,
+          "regularInvoicePrice": 826,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 16520
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SHIRASAGI",
+      "nameEn": "IFFCO-MC SHIRASAGI",
+      "nameMr": "इफ्को-एमसी SHIRASAGI",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "40 GM (2KG)",
+        "100 GM (2.5KG)",
+        "250 GM",
+        "500 GM"
+      ],
+      "price": 410,
+      "indicativePrice": "₹410 - ₹4350",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "40 GM (2KG)",
+          "mrp": 410,
+          "regularInvoicePrice": 326,
+          "packInCarton": 50,
+          "cartonWeightKg": 2.0,
+          "cartonBillingPrice": 16316
+        },
+        {
+          "packSize": "100 GM (2.5KG)",
+          "mrp": 900,
+          "regularInvoicePrice": 707,
+          "packInCarton": 25,
+          "cartonWeightKg": 3.0,
+          "cartonBillingPrice": 17678
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 2200,
+          "regularInvoicePrice": 1913,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 38260
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 4350,
+          "regularInvoicePrice": 3783,
+          "packInCarton": 10,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 37826
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SURUGA",
+      "nameEn": "IFFCO-MC SURUGA",
+      "nameMr": "इफ्को-एमसी SURUGA",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "120 GM",
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 660,
+      "indicativePrice": "₹660 - ₹5100",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "120 GM",
+          "mrp": 660,
+          "regularInvoicePrice": 273,
+          "packInCarton": 40,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 10921
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 1330,
+          "regularInvoicePrice": 530,
+          "packInCarton": 16,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 8475
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 2600,
+          "regularInvoicePrice": 1007,
+          "packInCarton": 8,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 8057
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 5100,
+          "regularInvoicePrice": 1927,
+          "packInCarton": 4,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 7709
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "TAKIBI",
+      "nameEn": "IFFCO-MC TAKIBI",
+      "nameMr": "इफ्को-एमसी TAKIBI",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "25GM (2KG)",
+        "100GM (3KG)",
+        "250GM (4KG)",
+        "500GM (4KG)"
+      ],
+      "price": 200,
+      "indicativePrice": "₹200 - ₹3300",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "25GM (2KG)",
+          "mrp": 200,
+          "regularInvoicePrice": 182,
+          "packInCarton": 80,
+          "cartonWeightKg": 2.0,
+          "cartonBillingPrice": 14560
+        },
+        {
+          "packSize": "100GM (3KG)",
+          "mrp": 700,
+          "regularInvoicePrice": 577,
+          "packInCarton": 30,
+          "cartonWeightKg": 3.0,
+          "cartonBillingPrice": 17321
+        },
+        {
+          "packSize": "250GM (4KG)",
+          "mrp": 1700,
+          "regularInvoicePrice": 1545,
+          "packInCarton": 16,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 24720
+        },
+        {
+          "packSize": "500GM (4KG)",
+          "mrp": 3300,
+          "regularInvoicePrice": 2705,
+          "packInCarton": 8,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 21640
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "TAIYO",
+      "nameEn": "IFFCO-MC TAIYO",
+      "nameMr": "इफ्को-एमसी TAIYO",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "5 GM (1KG)",
+        "100 GM",
+        "250 GM",
+        "500 GM"
+      ],
+      "price": 25,
+      "indicativePrice": "₹25 - ₹610",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "5 GM (1KG)",
+          "mrp": 25,
+          "regularInvoicePrice": 12,
+          "packInCarton": 200,
+          "cartonWeightKg": 1.0,
+          "cartonBillingPrice": 2460
+        },
+        {
+          "packSize": "100 GM",
+          "mrp": 175,
+          "regularInvoicePrice": 105,
+          "packInCarton": 40,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 4198
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 340,
+          "regularInvoicePrice": 178,
+          "packInCarton": 16,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 2843
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 610,
+          "regularInvoicePrice": 294,
+          "packInCarton": 8,
+          "cartonWeightKg": 4.0,
+          "cartonBillingPrice": 2355
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "TAIYO PLUS",
+      "nameEn": "IFFCO-MC TAIYO PLUS",
+      "nameMr": "इफ्को-एमसी TAIYO PLUS",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "50 ML",
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 70,
+      "indicativePrice": "₹70 - ₹1100",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "50 ML",
+          "mrp": 70,
+          "regularInvoicePrice": 61,
+          "packInCarton": 40,
+          "cartonWeightKg": 2.0,
+          "cartonBillingPrice": 2440
+        },
+        {
+          "packSize": "100 ML",
+          "mrp": 130,
+          "regularInvoicePrice": 87,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 4354
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 300,
+          "regularInvoicePrice": 196,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7839
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 570,
+          "regularInvoicePrice": 366,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7317
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1100,
+          "regularInvoicePrice": 697,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6969
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "YUJO",
+      "nameEn": "IFFCO-MC YUJO",
+      "nameMr": "इफ्को-एमसी YUJO",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML (5 LTR)",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 100,
+      "indicativePrice": "₹100 - ₹840",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "100 ML (5 LTR)",
+          "mrp": 100,
+          "regularInvoicePrice": 75,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 3758
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 230,
+          "regularInvoicePrice": 171,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6820
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 440,
+          "regularInvoicePrice": 324,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6472
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 840,
+          "regularInvoicePrice": 612,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6124
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "YURI",
+      "nameEn": "IFFCO-MC YURI",
+      "nameMr": "इफ्को-एमसी YURI",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 90,
+      "indicativePrice": "₹90 - ₹550",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 90,
+          "regularInvoicePrice": 58,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 2906
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 150,
+          "regularInvoicePrice": 113,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4510
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 280,
+          "regularInvoicePrice": 208,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4162
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 550,
+          "regularInvoicePrice": 407,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4075
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KASHIMA",
+      "nameEn": "IFFCO-MC KASHIMA",
+      "nameMr": "इफ्को-एमसी KASHIMA",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "1000 GM",
+        "4000 GM"
+      ],
+      "price": 210,
+      "indicativePrice": "₹210 - ₹800",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "1000 GM",
+          "mrp": 210,
+          "regularInvoicePrice": 114,
+          "packInCarton": 24,
+          "cartonWeightKg": 24.0,
+          "cartonBillingPrice": 2731
+        },
+        {
+          "packSize": "4000 GM",
+          "mrp": 800,
+          "regularInvoicePrice": 420,
+          "packInCarton": 6,
+          "cartonWeightKg": 24.0,
+          "cartonBillingPrice": 2522
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SHIMO",
+      "nameEn": "IFFCO-MC SHIMO",
+      "nameMr": "इफ्को-एमसी SHIMO",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "150ML",
+        "60 ML",
+        "30 ML"
+      ],
+      "price": 380,
+      "indicativePrice": "₹380 - ₹1700",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "150ML",
+          "mrp": 1700,
+          "regularInvoicePrice": 534,
+          "packInCarton": 40,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 21360
+        },
+        {
+          "packSize": "60 ML",
+          "mrp": 710,
+          "regularInvoicePrice": 240,
+          "packInCarton": 50,
+          "cartonWeightKg": 3.0,
+          "cartonBillingPrice": 11990
+        },
+        {
+          "packSize": "30 ML",
+          "mrp": 380,
+          "regularInvoicePrice": 142,
+          "packInCarton": 100,
+          "cartonWeightKg": 3.0,
+          "cartonBillingPrice": 14164
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "TAJIMA",
+      "nameEn": "IFFCO-MC TAJIMA",
+      "nameMr": "इफ्को-एमसी TAJIMA",
+      "category": "Insecticides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 250,
+      "indicativePrice": "₹250 - ₹1800",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 250,
+          "regularInvoicePrice": 206,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 10279
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 475,
+          "regularInvoicePrice": 384,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 15341
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 925,
+          "regularInvoicePrice": 745,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 14907
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1800,
+          "regularInvoicePrice": 1447,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 14473
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SHINZEN ULTRA",
+      "nameEn": "IFFCO-MC SHINZEN ULTRA",
+      "nameMr": "इफ्को-एमसी SHINZEN ULTRA",
+      "category": "Insecticides",
+      "technicalComposition": "Emamectin Benzoate 5 SG",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "1000 GM",
+        "4000 GM"
+      ],
+      "price": 140,
+      "indicativePrice": "₹140 - ₹540",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "1000 GM",
+          "mrp": 140,
+          "regularInvoicePrice": 116,
+          "packInCarton": 20,
+          "cartonWeightKg": 20.0,
+          "cartonBillingPrice": 2316
+        },
+        {
+          "packSize": "4000 GM",
+          "mrp": 540,
+          "regularInvoicePrice": 446,
+          "packInCarton": 5,
+          "cartonWeightKg": 20.0,
+          "cartonBillingPrice": 2230
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KATSU 50 SP",
+      "nameEn": "IFFCO-MC KATSU 50 SP",
+      "nameMr": "इफ्को-एमसी KATSU 50 SP",
+      "category": "Insecticides",
+      "technicalComposition": "Cartap Hydrochloride 50% SP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM",
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 175,
+      "indicativePrice": "₹175 - ₹1600",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 3
+      },
+      "skus": [
+        {
+          "packSize": "100 GM",
+          "mrp": 175,
+          "regularInvoicePrice": 152,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 7600
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 415,
+          "regularInvoicePrice": 348,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 13904
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 815,
+          "regularInvoicePrice": 682,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 13643
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 1600,
+          "regularInvoicePrice": 1338,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 13382
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "AZA-NEXA",
+      "nameEn": "IFFCO-MC AZA-NEXA",
+      "nameMr": "इफ्को-एमसी AZA-NEXA",
+      "category": "Fungicides",
+      "technicalComposition": "Azadirachtin 0.3% (3000 PPM)",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 310,
+      "indicativePrice": "₹310 - ₹3000",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 310,
+          "regularInvoicePrice": 270,
+          "packInCarton": 100,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 26957
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 755,
+          "regularInvoicePrice": 657,
+          "packInCarton": 48,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 31513
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 1505,
+          "regularInvoicePrice": 1309,
+          "packInCarton": 24,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 31409
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 3000,
+          "regularInvoicePrice": 2609,
+          "packInCarton": 12,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 31304
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SUKOYAKA",
+      "nameEn": "IFFCO-MC SUKOYAKA",
+      "nameMr": "इफ्को-एमसी SUKOYAKA",
+      "category": "Fungicides",
+      "technicalComposition": "Profenophos 40% + Cypermethrin 4% EC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "50 ML (2.5LTR)",
+        "100 ML (2.5LTR)",
+        "250 ML (5LTR)",
+        "500 ML (5LTR)",
+        "1000 ML"
+      ],
+      "price": 170,
+      "indicativePrice": "₹170 - ₹2500",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "50 ML (2.5LTR)",
+          "mrp": 170,
+          "regularInvoicePrice": 101,
+          "packInCarton": 50,
+          "cartonWeightKg": 3.0,
+          "cartonBillingPrice": 5032
+        },
+        {
+          "packSize": "100 ML (2.5LTR)",
+          "mrp": 280,
+          "regularInvoicePrice": 149,
+          "packInCarton": 25,
+          "cartonWeightKg": 3.0,
+          "cartonBillingPrice": 3726
+        },
+        {
+          "packSize": "250 ML (5LTR)",
+          "mrp": 650,
+          "regularInvoicePrice": 329,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 6584
+        },
+        {
+          "packSize": "500 ML (5LTR)",
+          "mrp": 1270,
+          "regularInvoicePrice": 514,
+          "packInCarton": 10,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 5144
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 2500,
+          "regularInvoicePrice": 1230,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 12299
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "YAMATO",
+      "nameEn": "IFFCO-MC YAMATO",
+      "nameMr": "इफ्को-एमसी YAMATO",
+      "category": "Fungicides",
+      "technicalComposition": "Cartap Hydrochloride 4% GR",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM (5KG)",
+        "250 GM (5KG)",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 90,
+      "indicativePrice": "₹90 - ₹700",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "100 GM (5KG)",
+          "mrp": 90,
+          "regularInvoicePrice": 66,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 3278
+        },
+        {
+          "packSize": "250 GM (5KG)",
+          "mrp": 190,
+          "regularInvoicePrice": 142,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 2832
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 370,
+          "regularInvoicePrice": 275,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5491
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 700,
+          "regularInvoicePrice": 514,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5142
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "GOZARU",
+      "nameEn": "IFFCO-MC GOZARU",
+      "nameMr": "इफ्को-एमसी GOZARU",
+      "category": "Fungicides",
+      "technicalComposition": "Insecticide formulation",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 250,
+      "indicativePrice": "₹250 - ₹960",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "250 GM",
+          "mrp": 250,
+          "regularInvoicePrice": 194,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 3876
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 490,
+          "regularInvoicePrice": 385,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7696
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 960,
+          "regularInvoicePrice": 752,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7521
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KAGUYA",
+      "nameEn": "IFFCO-MC KAGUYA",
+      "nameMr": "इफ्को-एमसी KAGUYA",
+      "category": "Fungicides",
+      "technicalComposition": "Mancozeb 75% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM (5KG)",
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 80,
+      "indicativePrice": "₹80 - ₹600",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "100 GM (5KG)",
+          "mrp": 80,
+          "regularInvoicePrice": 61,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 3039
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 160,
+          "regularInvoicePrice": 124,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4975
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 305,
+          "regularInvoicePrice": 236,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4714
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 600,
+          "regularInvoicePrice": 463,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4628
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SODATSU",
+      "nameEn": "IFFCO-MC SODATSU",
+      "nameMr": "इफ्को-एमसी SODATSU",
+      "category": "Fungicides",
+      "technicalComposition": "Hexaconazole 5% SC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "300 GM",
+        "600 GM (6KG)",
+        "1200 GM (6KG)"
+      ],
+      "price": 310,
+      "indicativePrice": "₹310 - ₹1200",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "300 GM",
+          "mrp": 310,
+          "regularInvoicePrice": 187,
+          "packInCarton": 20,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 3739
+        },
+        {
+          "packSize": "600 GM (6KG)",
+          "mrp": 610,
+          "regularInvoicePrice": 365,
+          "packInCarton": 10,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 3652
+        },
+        {
+          "packSize": "1200 GM (6KG)",
+          "mrp": 1200,
+          "regularInvoicePrice": 713,
+          "packInCarton": 5,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 3566
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KINKI",
+      "nameEn": "IFFCO-MC KINKI",
+      "nameMr": "इफ्को-एमसी KINKI",
+      "category": "Fungicides",
+      "technicalComposition": "Cymoxanil 8% + Mancozeb 64%",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML",
+        "5000 ML"
+      ],
+      "price": 60,
+      "indicativePrice": "₹60 - ₹1550",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 60,
+          "regularInvoicePrice": 50,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 2500
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 100,
+          "regularInvoicePrice": 75,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3007
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 170,
+          "regularInvoicePrice": 124,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 2485
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 320,
+          "regularInvoicePrice": 231,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 2310
+        },
+        {
+          "packSize": "5000 ML",
+          "mrp": 1550,
+          "regularInvoicePrice": 1112,
+          "packInCarton": 2,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 2223
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SATSUMA",
+      "nameEn": "IFFCO-MC SATSUMA",
+      "nameMr": "इफ्को-एमसी SATSUMA",
+      "category": "Fungicides",
+      "technicalComposition": "Carbendazim 12%+Mancozeb 63% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 130,
+      "indicativePrice": "₹130 - ₹460",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "250 GM",
+          "mrp": 130,
+          "regularInvoicePrice": 95,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3814
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 240,
+          "regularInvoicePrice": 183,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3656
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 460,
+          "regularInvoicePrice": 347,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3474
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "PIKAPIKA",
+      "nameEn": "IFFCO-MC PIKAPIKA",
+      "nameMr": "इफ्को-एमसी PIKAPIKA",
+      "category": "Fungicides",
+      "technicalComposition": "Copper Oxychloride 50% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 320,
+      "indicativePrice": "₹320 - ₹1200",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 320,
+          "regularInvoicePrice": 278,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 11131
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 620,
+          "regularInvoicePrice": 539,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10783
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1200,
+          "regularInvoicePrice": 1043,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10435
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "ANIKI",
+      "nameEn": "IFFCO-MC ANIKI",
+      "nameMr": "इफ्को-एमसी ANIKI",
+      "category": "Fungicides",
+      "technicalComposition": "Carbendazim 50% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 180,
+      "indicativePrice": "₹180 - ₹660",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "250 GM",
+          "mrp": 180,
+          "regularInvoicePrice": 157,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 3131
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 340,
+          "regularInvoicePrice": 296,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5913
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 660,
+          "regularInvoicePrice": 574,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5740
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "TEBURA",
+      "nameEn": "IFFCO-MC TEBURA",
+      "nameMr": "इफ्को-एमसी TEBURA",
+      "category": "Fungicides",
+      "technicalComposition": "Azoxystrobin 11% + Tebuconazole 18.3% SC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 400,
+      "indicativePrice": "₹400 - ₹1500",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "250 ML",
+          "mrp": 400,
+          "regularInvoicePrice": 348,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 13913
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 775,
+          "regularInvoicePrice": 674,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 13478
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1500,
+          "regularInvoicePrice": 1304,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 13044
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "MOYASHI",
+      "nameEn": "IFFCO-MC MOYASHI",
+      "nameMr": "इफ्को-एमसी MOYASHI",
+      "category": "Fungicides",
+      "technicalComposition": "Propiconazole 25% EC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM",
+        "100 GM",
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 110,
+      "indicativePrice": "₹110 - ₹940",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "100 GM",
+          "mrp": 110,
+          "regularInvoicePrice": 96,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 4783
+        },
+        {
+          "packSize": "100 GM",
+          "mrp": 110,
+          "regularInvoicePrice": 96,
+          "packInCarton": 100,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 9565
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 250,
+          "regularInvoicePrice": 209,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 8341
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 480,
+          "regularInvoicePrice": 400,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7993
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 940,
+          "regularInvoicePrice": 782,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 7820
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SAIKIN",
+      "nameEn": "IFFCO-MC SAIKIN",
+      "nameMr": "इफ्को-एमसी SAIKIN",
+      "category": "Fungicides",
+      "technicalComposition": "DIMETHOMORPH 50% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "120 GM",
+        "250 GM"
+      ],
+      "price": 190,
+      "indicativePrice": "₹190 - ₹380",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "120 GM",
+          "mrp": 190,
+          "regularInvoicePrice": 165,
+          "packInCarton": 40,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 6609
+        },
+        {
+          "packSize": "250 GM",
+          "mrp": 380,
+          "regularInvoicePrice": 330,
+          "packInCarton": 24,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 7931
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SAYAKA",
+      "nameEn": "IFFCO-MC SAYAKA",
+      "nameMr": "इफ्को-एमसी SAYAKA",
+      "category": "Fungicides",
+      "technicalComposition": "Chlorothalonil 75% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "200 ML",
+        "400 ML",
+        "1000 ML"
+      ],
+      "price": 470,
+      "indicativePrice": "₹470 - ₹2000",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "200 ML",
+          "mrp": 470,
+          "regularInvoicePrice": 427,
+          "packInCarton": 25,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 10681
+        },
+        {
+          "packSize": "400 ML",
+          "mrp": 840,
+          "regularInvoicePrice": 764,
+          "packInCarton": 25,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 19091
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 2000,
+          "regularInvoicePrice": 1818,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 18181
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "TAMAGO",
+      "nameEn": "IFFCO-MC TAMAGO",
+      "nameMr": "इफ्को-एमसी TAMAGO",
+      "category": "Fungicides",
+      "technicalComposition": "Picoxystrobin 7%+Propiconazole 12% SC",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "250 GM",
+        "500 GM",
+        "1000 GM"
+      ],
+      "price": 250,
+      "indicativePrice": "₹250 - ₹950",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "250 GM",
+          "mrp": 250,
+          "regularInvoicePrice": 217,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 8695
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 480,
+          "regularInvoicePrice": 417,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 8347
+        },
+        {
+          "packSize": "1000 GM",
+          "mrp": 950,
+          "regularInvoicePrice": 826,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 8261
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KIZUNA",
+      "nameEn": "IFFCO-MC KIZUNA",
+      "nameMr": "इफ्को-एमसी KIZUNA",
+      "category": "Fungicides",
+      "technicalComposition": "Tricylazole 75% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 GM",
+        "200 GM"
+      ],
+      "price": 550,
+      "indicativePrice": "₹550 - ₹1050",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 4
+      },
+      "skus": [
+        {
+          "packSize": "100 GM",
+          "mrp": 550,
+          "regularInvoicePrice": 478,
+          "packInCarton": 30,
+          "cartonWeightKg": 3.0,
+          "cartonBillingPrice": 14348
+        },
+        {
+          "packSize": "200 GM",
+          "mrp": 1050,
+          "regularInvoicePrice": 913,
+          "packInCarton": 30,
+          "cartonWeightKg": 6.0,
+          "cartonBillingPrice": 27391
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "UCHIWA",
+      "nameEn": "IFFCO-MC UCHIWA",
+      "nameMr": "इफ्को-एमसी UCHIWA",
+      "category": "Fungicides",
+      "technicalComposition": "DIMETHOMORPH 50% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "1000 GM",
+        "500 GM"
+      ],
+      "price": 275,
+      "indicativePrice": "₹275 - ₹500",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 5
+      },
+      "skus": [
+        {
+          "packSize": "1000 GM",
+          "mrp": 500,
+          "regularInvoicePrice": 399,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 3994
+        },
+        {
+          "packSize": "500 GM",
+          "mrp": 275,
+          "regularInvoicePrice": 221,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4429
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "KINFU",
+      "nameEn": "IFFCO-MC KINFU",
+      "nameMr": "इफ्को-एमसी KINFU",
+      "category": "Fungicides",
+      "technicalComposition": "Thiophanate Methyl 70% WP",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "25 ML",
+        "100 ML",
+        "200 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 65,
+      "indicativePrice": "₹65 - ₹2400",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 5
+      },
+      "skus": [
+        {
+          "packSize": "25 ML",
+          "mrp": 65,
+          "regularInvoicePrice": 57,
+          "packInCarton": 100,
+          "cartonWeightKg": 2.5,
+          "cartonBillingPrice": 5700
+        },
+        {
+          "packSize": "100 ML",
+          "mrp": 245,
+          "regularInvoicePrice": 189,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 9472
+        },
+        {
+          "packSize": "200 ML",
+          "mrp": 620,
+          "regularInvoicePrice": 492,
+          "packInCarton": 40,
+          "cartonWeightKg": 8.0,
+          "cartonBillingPrice": 19678
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 1220,
+          "regularInvoicePrice": 943,
+          "packInCarton": 24,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 22629
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 2400,
+          "regularInvoicePrice": 1851,
+          "packInCarton": 12,
+          "cartonWeightKg": 12.0,
+          "cartonBillingPrice": 22211
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "AMINOS",
+      "nameEn": "IFFCO-MC AMINOS",
+      "nameMr": "इफ्को-एमसी AMINOS",
+      "category": "Plant Growth Promoters",
+      "technicalComposition": "Amino Acid",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 90,
+      "indicativePrice": "₹90 - ₹500",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 5
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 90,
+          "regularInvoicePrice": 75,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 3750
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 150,
+          "regularInvoicePrice": 130,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 2609
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 275,
+          "regularInvoicePrice": 239,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4783
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 500,
+          "regularInvoicePrice": 435,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 4348
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "HUMETSU",
+      "nameEn": "IFFCO-MC HUMETSU",
+      "nameMr": "इफ्को-एमसी HUMETSU",
+      "category": "Plant Growth Promoters",
+      "technicalComposition": "Humic Acid",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML",
+        "5000 ML"
+      ],
+      "price": 110,
+      "indicativePrice": "₹110 - ₹3400",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 5
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 110,
+          "regularInvoicePrice": 93,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 4669
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 210,
+          "regularInvoicePrice": 186,
+          "packInCarton": 20,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 3721
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 370,
+          "regularInvoicePrice": 303,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 6065
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 700,
+          "regularInvoicePrice": 572,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5717
+        },
+        {
+          "packSize": "5000 ML",
+          "mrp": 3400,
+          "regularInvoicePrice": 2772,
+          "packInCarton": 2,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 5544
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SASAGE",
+      "nameEn": "IFFCO-MC SASAGE",
+      "nameMr": "इफ्को-एमसी SASAGE",
+      "category": "Plant Growth Promoters",
+      "technicalComposition": "Sulphur 80% WDG",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "1000 GM",
+        "3000 GM",
+        "1000 GM (30 KG)",
+        "3000 GM (30 KG)",
+        "30000 GM"
+      ],
+      "price": 130,
+      "indicativePrice": "₹130 - ₹3900",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 5
+      },
+      "skus": [
+        {
+          "packSize": "1000 GM",
+          "mrp": 130,
+          "regularInvoicePrice": 105,
+          "packInCarton": 24,
+          "cartonWeightKg": 24.0,
+          "cartonBillingPrice": 2529
+        },
+        {
+          "packSize": "3000 GM",
+          "mrp": 360,
+          "regularInvoicePrice": 304,
+          "packInCarton": 8,
+          "cartonWeightKg": 24.0,
+          "cartonBillingPrice": 2432
+        },
+        {
+          "packSize": "1000 GM (30 KG)",
+          "mrp": 160,
+          "regularInvoicePrice": 133,
+          "packInCarton": 30,
+          "cartonWeightKg": 30.0,
+          "cartonBillingPrice": 3990
+        },
+        {
+          "packSize": "3000 GM (30 KG)",
+          "mrp": 450,
+          "regularInvoicePrice": 369,
+          "packInCarton": 10,
+          "cartonWeightKg": 30.0,
+          "cartonBillingPrice": 3689
+        },
+        {
+          "packSize": "30000 GM",
+          "mrp": 3900,
+          "regularInvoicePrice": 3096,
+          "packInCarton": 1,
+          "cartonWeightKg": 30.0,
+          "cartonBillingPrice": 3096
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "SHIGOTO",
+      "nameEn": "IFFCO-MC SHIGOTO",
+      "nameMr": "इफ्को-एमसी SHIGOTO",
+      "category": "Plant Growth Promoters",
+      "technicalComposition": "Silwet 408 Super spreader",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "50 ML",
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 80,
+      "indicativePrice": "₹80 - ₹1300",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 5
+      },
+      "skus": [
+        {
+          "packSize": "50 ML",
+          "mrp": 80,
+          "regularInvoicePrice": 58,
+          "packInCarton": 40,
+          "cartonWeightKg": 2.0,
+          "cartonBillingPrice": 2310
+        },
+        {
+          "packSize": "100 ML",
+          "mrp": 150,
+          "regularInvoicePrice": 119,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 5932
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 340,
+          "regularInvoicePrice": 266,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10646
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 660,
+          "regularInvoicePrice": 515,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10298
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 1300,
+          "regularInvoicePrice": 1012,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 10124
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "YUKARI",
+      "nameEn": "IFFCO-MC YUKARI",
+      "nameMr": "इफ्को-एमसी YUKARI",
+      "category": "Plant Growth Promoters",
+      "technicalComposition": "Paclobutrazole 23%",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "100 ML",
+        "250 ML",
+        "500 ML",
+        "1000 ML"
+      ],
+      "price": 230,
+      "indicativePrice": "₹230 - ₹2100",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 5
+      },
+      "skus": [
+        {
+          "packSize": "100 ML",
+          "mrp": 230,
+          "regularInvoicePrice": 182,
+          "packInCarton": 50,
+          "cartonWeightKg": 5.0,
+          "cartonBillingPrice": 9116
+        },
+        {
+          "packSize": "250 ML",
+          "mrp": 550,
+          "regularInvoicePrice": 434,
+          "packInCarton": 40,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 17360
+        },
+        {
+          "packSize": "500 ML",
+          "mrp": 1075,
+          "regularInvoicePrice": 846,
+          "packInCarton": 20,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 16926
+        },
+        {
+          "packSize": "1000 ML",
+          "mrp": 2100,
+          "regularInvoicePrice": 1649,
+          "packInCarton": 10,
+          "cartonWeightKg": 10.0,
+          "cartonBillingPrice": 16491
+        }
+      ]
+    },
+    {
+      "brand": "IFFCO-MC",
+      "company": "IFFCO-MC",
+      "productCode": "MIKOZEN",
+      "nameEn": "IFFCO-MC MIKOZEN",
+      "nameMr": "इफ्को-एमसी MIKOZEN",
+      "category": "Plant Growth Promoters",
+      "technicalComposition": "MYCORRHIZA GR",
+      "manufacturer": "IFFCO-MC Crop Science Private Limited",
+      "packSizes": [
+        "1000 GM",
+        "4000 GM"
+      ],
+      "price": 165,
+      "indicativePrice": "₹165 - ₹600",
+      "availability": "in_stock",
+      "stockQuantity": null,
+      "sourceDocument": {
+        "title": "IFFCO-MC Crop Science Private Limited Regular Price Price List",
+        "dated": "05/10/2025",
+        "page": 5
+      },
+      "skus": [
+        {
+          "packSize": "1000 GM",
+          "mrp": 165,
+          "regularInvoicePrice": 134,
+          "packInCarton": 20,
+          "cartonWeightKg": 20.0,
+          "cartonBillingPrice": 2870
+        },
+        {
+          "packSize": "4000 GM",
+          "mrp": 600,
+          "regularInvoicePrice": 483,
+          "packInCarton": 6,
+          "cartonWeightKg": 24.0,
+          "cartonBillingPrice": 3130
+        }
+      ]
+    }
+  ]
+}

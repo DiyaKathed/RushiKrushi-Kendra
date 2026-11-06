@@ -13,8 +13,9 @@ const { protect, authorize } = require('../middleware/auth');
 router.get('/', protect, authorize('admin'), async (req, res) => {
   try {
     const totalProducts = await Product.countDocuments();
-    const publishedProducts = await Product.countDocuments({ status: 'published' });
-    const draftProducts = await Product.countDocuments({ status: 'draft' });
+    const publishedProducts = await Product.countDocuments({ status: 'published', isArchived: { $ne: true } });
+    const draftProducts = await Product.countDocuments({ status: 'draft', isArchived: { $ne: true } });
+    const archivedProducts = await Product.countDocuments({ $or: [{ status: 'archived' }, { isArchived: true }] });
 
     const totalCrops = await Crop.countDocuments();
     const publishedCrops = await Crop.countDocuments({ status: 'published' });
@@ -33,6 +34,7 @@ router.get('/', protect, authorize('admin'), async (req, res) => {
         totalProducts,
         publishedProducts,
         draftProducts,
+        archivedProducts,
         totalCrops,
         publishedCrops,
         totalArticles,
